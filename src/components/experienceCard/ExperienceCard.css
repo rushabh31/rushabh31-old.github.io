@@ -4,6 +4,7 @@
     border-radius:10px;
     display: flex;
     flex-direction:row;
+    background-color: #8fc5f47a;
 }
 
 .experience-card-logo-div {
@@ -84,7 +85,7 @@
 
 .experience-card-company > a:hover {
     color: #000;
-} 
+}
 
 .experience-card-company > a:hover:before {
   visibility: visible;
@@ -105,7 +106,7 @@
   transform: scaleX(0);
   -webkit-transition: all 0.3s ease-in-out 0s;
   transition: all 0.3s ease-in-out 0s;
-} 
+}
 
 
 @media (max-width: 768px) {
@@ -120,7 +121,7 @@
     }
 
     .experience-card-body-div {
-        
+
     }
 
     .experience-card-heading-left {

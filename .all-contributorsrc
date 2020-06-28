@@ -6,10 +6,10 @@
   "commit": false,
   "contributors": [
     {
-      "login": "ashutosh1919",
-      "name": "Ashutosh Hathidara",
+      "login": "rushabh31",
+      "name": "Rushabh Patel",
       "avatar_url": "https://avatars2.githubusercontent.com/u/23307811?v=4",
-      "profile": "http://ashutosh1919.github.io",
+      "profile": "http://rushabh31.github.io",
       "contributions": [
         "code",
         "doc",
@@ -20,8 +20,8 @@
     }
   ],
   "contributorsPerLine": 1,
-  "projectName": "masterPortfolio",
-  "projectOwner": "ashutosh1919",
+  "projectName": "portfolio",
+  "projectOwner": "rushabh31",
   "repoType": "github",
   "repoHost": "https://github.com",
   "skipCi": true

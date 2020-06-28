@@ -19,7 +19,7 @@ class CertificationCard extends Component {
 									/>
 								</div>
 								<div className="content-details fadeIn-top">
-									<h3 className="content-title">Certificate</h3>
+									<h3 className="content-title">Skill</h3>
 								</div>
 							</a>
 						</div>

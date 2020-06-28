@@ -11,10 +11,9 @@ export default function Greeting() {
         <div className="greeting-main">
           <div className="greeting-text-div">
             <div>
-              <h1 className="greeting-text">{greeting.title}</h1>
-              <h2 className="greeting-nickname">( {greeting.nickname} )</h2>
               <p className="greeting-text-p subTitle">{greeting.subTitle}</p>
               <SocialMedia />
+
               {/* <div className="button-greeting-div">
               <Button text="Contact me" href="#contact" />
               <Button text="See my resume" newTab={true} href={greeting.resumeLink} />
@@ -23,12 +22,14 @@ export default function Greeting() {
           </div>
           <div className="greeting-image-div">
             <img
-              alt="saad sitting on table"
-              src={require("../../assests/images/feelingProud.svg")}
+              alt="Rushabh sitting on table"
+              src={require("../../assests/images/statistics-chart.svg")}
             ></img>
           </div>
+
         </div>
       </div>
     </Fade>
+
   );
 }

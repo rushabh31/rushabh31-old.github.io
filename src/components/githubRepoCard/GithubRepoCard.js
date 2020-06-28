@@ -15,13 +15,14 @@ export default function GithubRepoCard({ repo }) {
 				key={repo.id}
 				onClick={() => openRepoinNewTab(repo.url)}
 			>
+
 				<div className="repo-name-div">
 					<svg
 						aria-hidden="true"
 						className="octicon repo-svg"
-						height="16"
+						height="20"
 						role="img"
-						viewBox="0 0 12 16"
+						viewBox="0 0 12 20"
 						width="12"
 					>
 						<path
@@ -30,10 +31,12 @@ export default function GithubRepoCard({ repo }) {
 						></path>
 					</svg>
 					<p className="repo-name">{repo.name}</p>
+          <br/>
 				</div>
 				<p className="repo-description">{repo.description}</p>
 				<div className="repo-details">
-					<p className="repo-creation-date subTitle">Created on {repo.createdAt.split('T')[0]}</p>
+					<p className="repo-creation-date subTitle"><b>Project Type: {repo.createdAt.split('T')[0]}</b></p>
+          <br/>
           <ProjectLanguages className="repo-languages" logos={repo.languages} />
 				</div>
 				{/* <div className="repo-stats">

@@ -14,7 +14,7 @@ class SkillSection extends Component {
               <Flip left duration={2000}>
                 <div className="skills-image-div">
                   <img
-                    alt="Ashutosh is Analysing Data"
+                    alt="Rushabh is Analysing Data"
                     src={require(`../../assests/images/${skill.imagePath}`)}
                   ></img>
                 </div>
@@ -22,7 +22,7 @@ class SkillSection extends Component {
 
               <div className="skills-text-div">
                 <Fade right duration={1000}>
-                  <h1 className="skills-heading">{skill.title}</h1>
+                <center>  <h1 className="skills-heading">{skill.title}</h1> </center>
                 </Fade>
                 <Fade right duration={1500}>
                   <SoftwareSkill logos={skill.softwareSkills} />

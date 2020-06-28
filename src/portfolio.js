@@ -9,41 +9,48 @@ const theme = {
 const greeting = {
 	/* Your Summary And Greeting Section */
 	//title: "Hi all 👋 I'm Saad",
-	title: "Ashutosh Hathidara",
-	nickname: "layman_brother",
+	//title: "Rushabh Patel",
+	//nickname: "layman_brother",
 	// subTitle:
-	//   "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks",
+	//   "A passionate data scientist 🚀 having 3+ years of experience and in-depth knowledge of database types, statistical research methodologies, and big data capture, curation, manipulation and visualization",
 	subTitle:
-		"A passionate individual who always thrive to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
+		"A passionate data scientist having 3+ years of experience and in-depth knowledge of database types, statistical research methodologies, and big data capture, curation, manipulation and visualization",
 	resumeLink:
 		"https://drive.google.com/open?id=1XYpYhLeqCdyx_q6l0bQoC7RgwQjAjXPf"
 };
 
 const socialMediaLinks = {
 	/* Your Social Media Link */
-	github: "https://github.com/ashutosh1919",
-	linkedin: "https://www.linkedin.com/in/ashutosh-hathidara-88710b138/",
-	gmail: "ashutoshhathidara98@gmail.com",
-	gitlab: "https://gitlab.com/ashutoshhathidara98",
-	facebook: "https://www.facebook.com/laymanbrother.19/",
-	twitter: "https://twitter.com/ashutosh_1919",
-	instagram: "https://www.instagram.com/layman_brother/"
+	github: "https://github.com/rushabh31",
+	linkedin: "https://www.linkedin.com/in/rushabhpatel5/",
+	gmail: "rushabh.patel5@gmail.com",
+	facebook: "https://www.facebook.com/rpate307/",
+	twitter: "https://twitter.com/rushabhpatel5",
+	instagram: "https://www.instagram.com/rushabhpatel5/"
 };
 
 const skills = {
   data: [
     {
-      title: "Data Science & AI",
-      imagePath: "data_science.svg",
+      title: "Machine Learning & AI",
+      imagePath: "machine-learning.svg",
       skills: [
-        "⚡ Developing highly scalable production ready models for various deeplearning and statistical use cases",
-        "⚡ Experience of working with Computer Vision and NLP projects",
-        "⚡ Complex quantitative modelling for dynamic forecasting and time series analysis"
+        "Applying natural language processing methods to clinical text to extract structured information",
+        "Using the latest deep learning techniques to classify imaging studies",
+        "Applying statistical models (with a focus on Bayesian methods) to assist researchers in analyzing missing,erroneous or incomplete patient data",
+        "Writing tools and visualizations to surface data insights from the above methods to researchers"
       ],
       softwareSkills: [
         {
-          skillName: "Tensorflow",
-          fontAwesomeClassname: "logos-tensorflow",
+          skillName: "python",
+          fontAwesomeClassname: "logos-python",
+          style: {
+            backgroundColor: "transparent"
+          }
+        },
+        {
+          skillName: "R",
+          fontAwesomeClassname: "logos:r-lang",
           style: {
             backgroundColor: "transparent"
           }
@@ -64,22 +71,21 @@ const skills = {
           }
         },
         {
-          skillName: "Python",
-          fontAwesomeClassname: "ion-logo-python",
+          skillName: "SQL",
+          fontAwesomeClassname: "carbon-sql",
           style: {
-            backgroundColor: "transparent",
-            color: "#3776AB"
+            backgroundColor: "transparent"
           }
         }
       ]
     },
     {
-      title: "Full Stack Development",
-      imagePath: "fullstack.svg",
+      title: "Data Visualization",
+      imagePath: "data-visualization.svg",
       skills: [
-        "⚡ Building resposive website front end using React-Redux",
-        "⚡ Developing mobile applications using Flutter, React Native and solo android apps using Kotlin",
-        "⚡ Creating application backend in Node, Express & Flask"
+        " Report and visualize results of statistical analyses, in the form of graphs, charts, and tables",
+        " Conduct regular data mining and exploratory analyses across analytics spectrum to ensure data quality & integrity and to produce data insights",
+        " Develop dashboards to illustrate data insight and describe predictive modeling output."
       ],
       softwareSkills: [
         {
@@ -112,45 +118,10 @@ const skills = {
           }
         },
         {
-          skillName: "ReactJS",
-          fontAwesomeClassname: "simple-icons:react",
-          style: {
-            color: "#61DAFB"
-          }
-        },
-        {
-          skillName: "NodeJS",
-          fontAwesomeClassname: "simple-icons:node-dot-js",
-          style: {
-            color: "#339933"
-          }
-        },
-        {
-          skillName: "NPM",
-          fontAwesomeClassname: "simple-icons:npm",
-          style: {
-            color: "#CB3837"
-          }
-        },
-        {
-          skillName: "Yarn",
-          fontAwesomeClassname: "simple-icons:yarn",
-          style: {
-            color: "#2C8EBB"
-          }
-        },
-        {
-          skillName: "Gatsby",
-          fontAwesomeClassname: "simple-icons:gatsby",
+          skillName: "D3",
+          fontAwesomeClassname: "logos:d3",
           style: {
             color: "#663399"
-          }
-        },
-        {
-          skillName: "Flutter",
-          fontAwesomeClassname: "simple-icons:flutter",
-          style: {
-            color: "#02569B"
           }
         }
       ]
@@ -159,10 +130,9 @@ const skills = {
       title: "Cloud Infra-Architecture",
       imagePath: "cloud_infrastructure.svg",
       skills: [
-        "⚡ Experience working on multiple cloud platforms",
-        "⚡ Hosting and maintaining websites on virtual machine instances along with integration of databases",
-        "⚡ Deploying deep learning models on cloud to use on mobile devices",
-        "⚡ Setting up streaming jobs from DB to Server or vice-versa on GCP and AWS"
+        " Experience working on multiple cloud platforms",
+        " Create and maintain framework for deploying machine on Cloud",
+        " Engineer computational solutions and develop algorithms and deploying them through REST API in production"
       ],
       softwareSkills: [
         {
@@ -180,84 +150,43 @@ const skills = {
           }
         },
         {
-          skillName: "Azure",
-          fontAwesomeClassname: "simple-icons:microsoftazure",
+          skillName: "API",
+          fontAwesomeClassname: "carbon:api-1",
           style: {
-            color: "#0089D6"
+            color: "#FF7C00"
           }
         },
-        {
-          skillName: "Firebase",
-          fontAwesomeClassname: "simple-icons:firebase",
-          style: {
-            color: "#FFCA28"
-          }
-        },
-        {
-          skillName: "PostgreSQL",
-          fontAwesomeClassname: "simple-icons:postgresql",
-          style: {
-            color: "#336791"
-          }
-        },
-        {
-          skillName: "MongoDB",
-          fontAwesomeClassname: "simple-icons:mongodb",
-          style: {
-            color: "#47A248"
-          }
-        },
+
         {
           skillName: "Docker",
           fontAwesomeClassname: "simple-icons:docker",
           style: {
             color: "#1488C6"
           }
-        },
-        {
-          skillName: "Kubernetes",
-          fontAwesomeClassname: "simple-icons:kubernetes",
-          style: {
-            color: "#326CE5"
-          }
         }
       ]
     },
     {
-      title: "UI/UX Design",
+      title: "Package Development",
       imagePath: "ui_ux_design.svg",
       skills: [
-        "⚡ Designing highly attractive user interface for mobile and web applications",
-        "⚡ Customizing logo designs and building logos from scratch",
-        "⚡ Creating the flow of application functionalities to optimize user experience"
+        " Designed multiple R packages for the community to make vis easy.",
+        " Developed a R Package to facilitate contact tracing on visit-based data with a specific focus on providers of community-based healthcare.",
+        " Packaging and deploying them for the public usage"
       ],
       softwareSkills: [
         {
-          skillName: "Adobe XD",
-          fontAwesomeClassname: "simple-icons:adobexd",
+          skillName: "RStudio",
+          fontAwesomeClassname: "simple-icons:rstudio",
           style: {
-            color: "#FF2BC2"
+            color: "#005daa"
           }
         },
         {
-          skillName: "Figma",
-          fontAwesomeClassname: "simple-icons:figma",
+          skillName: "R",
+          fontAwesomeClassname: "logos:r-lang",
           style: {
-            color: "#F24E1E"
-          }
-        },
-        {
-          skillName: "Adobe Illustrator",
-          fontAwesomeClassname: "simple-icons:adobeillustrator",
-          style: {
-            color: "#FF7C00"
-          }
-        },
-        {
-          skillName: "Inkscape",
-          fontAwesomeClassname: "simple-icons:inkscape",
-          style: {
-            color: "#000000"
+            backgroundColor: "transparent"
           }
         }
       ]
@@ -268,36 +197,20 @@ const skills = {
 const competitiveSites = {
   competitiveSites: [
     {
-      siteName: "HackerRank",
-      iconifyClassname: "simple-icons:hackerrank",
+      siteName: "Google Scholar",
+      iconifyClassname: "simple-icons:googlescholar",
       style: {
-        color: "#2EC866"
+        color: "#3569c4"
       },
-      profileLink: "https://www.hackerrank.com/layman_brother"
+      profileLink: "https://scholar.google.com/citations?user=VjR1JYQAAAAJ&hl=en"
     },
     {
-      siteName: "Codechef",
-      iconifyClassname: "simple-icons:codechef",
+      siteName: "Stackoverflow",
+      iconifyClassname: "simple-icons:stackoverflow",
       style: {
-        color: "#5B4638"
+        color: "#f48024"
       },
-      profileLink: "https://www.codechef.com/users/ashutosh_1919"
-    },
-    {
-      siteName: "Codeforces",
-      iconifyClassname: "simple-icons:codeforces",
-      style: {
-        color: "#1F8ACB"
-      },
-      profileLink: "http://codeforces.com/profile/layman_brother"
-    },
-    {
-      siteName: "Hackerearth",
-      iconifyClassname: "simple-icons:hackerearth",
-      style: {
-        color: "#323754"
-      },
-      profileLink: "https://www.hackerearth.com/@ashutosh391"
+      profileLink: "https://stackoverflow.com/users/7120667/rushabh-patel"
     },
     {
       siteName: "Kaggle",
@@ -305,7 +218,7 @@ const competitiveSites = {
       style: {
         color: "#20BEFF"
       },
-      profileLink: "https://www.kaggle.com/laymanbrother"
+      profileLink: "https://www.kaggle.com/rushabhpatel"
     }
   ]
 }
@@ -313,129 +226,120 @@ const competitiveSites = {
 const degrees = {
   degrees : [
     {
-      title: "Indian Institute of Information Technology Kurnool",
-      subtitle: "B.Tech. in Computer Engineering",
-      logo_path: "iiitk_logo.png",
-      alt_name: "IIITDM Kurnool",
-      duration: "2016 - Present",
-      descriptions: [
-        "⚡ I have studied basic software engineering subjects like DS, Algorithms, DBMS, OS, CA, AI etc.",
-        "⚡ Apart from this, I have done courses on Deep Learning, Data Science, Cloud Computing and Full Stack Development.",
-        "⚡ I was selected for Merit cum Means Scholarship which is given to top 10% of students in college. I have received award from respected director for consistently best performance in academics."
+      title: "Symbiosis International University",
+      subtitle: "B.Tech. in Computer Science",
+      logo_path: "siu.png",
+      alt_name: "SIU",
+      duration: "2011 - 2015",
+      descriptions: [" - Bachelor of Technology (B.Tech) in Computer Science"
       ],
-      website_link: "http://iiitk.ac.in"
+      website_link: "http://siu.edu.in"
+    },
+
+    {
+      title: "University of Illinois",
+      subtitle: "MS in Computer Science",
+      logo_path: "uis.png",
+      alt_name: "UIS",
+      duration: "2016 - 2017",
+      descriptions: [
+        " - Master of Science (MS) in Computer Science GPA - (4.0/4.0)"," - Honors In Computer Science ( For best Academics and Research)"
+        ],
+      website_link: "http://uis.edu"
+    },
+
+    {
+      title: "Temple University",
+      subtitle: "PhD in Computer Science",
+      logo_path: "temple.png",
+      alt_name: "temple",
+      duration: "2020 - Present",
+      descriptions: [
+        " - Started PhD in Computer Science (Artificial Intelligence and Applications Track) under the supervision of Dr. Longin Jan Latecki (https://cis.temple.edu/~latecki/)"
+      ],
+      website_link: "http://temple.edu"
     }
+
+
+
   ]
 }
 
 const certifications = {
 	certifications: [
 		{
-			title: "Machine Learning",
-			subtitle: "- Andrew Ng",
-			logo_path: "stanford_logo.png",
-			certificate_link:
-				"https://www.coursera.org/account/accomplishments/verify/22MTSSC5WDTM",
-			alt_name: "Stanford University",
-			color_code: "#8C151599"
+			title: "R",
+			subtitle: "Years of Experience: 3+\n Expertise: Advanced",
+			logo_path: "rlogo.png",
+			color_code: "#D83B0199"
 		},
 		{
-			title: "Deep Learning",
-			subtitle: "- Andrew Ng",
-			logo_path: "deeplearning_ai_logo.png",
-			certificate_link:
-				"https://www.coursera.org/account/accomplishments/specialization/H8CPSFXAJD2G",
-			alt_name: "deeplearning.ai",
-			color_code: "#00000099"
+			title: "Python",
+			subtitle: "Years of Experience: 2+\n Expertise: Intermediate",
+			logo_path: "pythonlogo.png",
+			color_code: "black"
 		},
 		{
-			title: "ML on GCP",
-			subtitle: "- GCP Training",
-			logo_path: "google_logo.png",
+			title: "Apache Spark",
+			subtitle: " Years of Experience: 1+\n Expertise: Begineer",
+			logo_path: "sparklogo.png",
 			certificate_link:
 				"https://www.coursera.org/account/accomplishments/specialization/EB4VJARK8647",
 			alt_name: "Google",
 			color_code: "#0C9D5899"
 		},
 		{
-			title: "Data Science",
-			subtitle: "- Alex Aklson",
-			logo_path: "ibm_logo.png",
-			certificate_link:
-				"https://www.coursera.org/account/accomplishments/specialization/PLEAPCSJBZT5",
-			alt_name: "IBM",
+			title: "Scala",
+			subtitle: "Years of Experience: 2+\n Expertise: Intermediate",
+			logo_path: "scalalogo.png",
 			color_code: "#1F70C199"
 		},
 		{
-			title: "Big Data",
-			subtitle: "- Kim Akers",
-			logo_path: "microsoft_logo.png",
-			certificate_link:
-				"https://drive.google.com/file/d/164zKCFOsI4vGqokc-Qj-e_D00kLDHIrG/view",
-			alt_name: "Microsoft",
+			title: "Redshift",
+			subtitle: "Years of Experience: 2+\n Expertise: Intermediate",
+			logo_path: "redshiftlogo.png",
 			color_code: "#D83B0199"
 		},
 		{
-			title: "Advanced Data Science",
-			subtitle: "- Romeo Kienzler",
-			logo_path: "ibm_logo.png",
-			certificate_link:
-				"https://www.coursera.org/account/accomplishments/verify/BH2T9BRU87BH",
-			alt_name: "IBM",
+			title: "Tableau",
+			subtitle: "Years of Experience: 1+\n Expertise: Begineer",
+			logo_path: "tableaulogo.png",
 			color_code: "#1F70C199"
 		},
 		{
-			title: "Advanced ML on GCP",
-			subtitle: "- GCP Training",
-			logo_path: "google_logo.png",
-			certificate_link:
-				"https://www.coursera.org/account/accomplishments/verify/5JZZM7TNQ2AV",
-			alt_name: "Google",
+			title: "H2O.ai",
+			subtitle: "Years of Experience: 2+\n Expertise: Intermediate",
+			logo_path: "h2ologo.png",
 			color_code: "#0C9D5899"
 		},
 		{
-			title: "DL on Tensorflow",
-			subtitle: "- Laurence Moroney",
-			logo_path: "deeplearning_ai_logo.png",
-			certificate_link:
-				"https://www.coursera.org/account/accomplishments/verify/6T4DCUGNK8J8",
-			alt_name: "deeplearning.ai",
+			title: "Tensorflow",
+			subtitle: "Years of Experience: < 1\n Expertise: Begineer",
+			logo_path: "tflogo.png",
 			color_code: "#00000099"
 		},
 		{
-			title: "Fullstack Development",
-			subtitle: "- Jogesh Muppala",
-			logo_path: "coursera_logo.png",
-			certificate_link:
-				"https://www.coursera.org/account/accomplishments/certificate/NRANJA66Y2YA",
-			alt_name: "Coursera",
+			title: "PyTorch",
+			subtitle: "Years of Experience: < 1 \n Expertise: Begineer",
+			logo_path: "pytorch-logo.png",
 			color_code: "#2A73CC"
 		},
 		{
-			title: "Kuberenetes on GCP",
-			subtitle: "- Qwiklabs",
-			logo_path: "gcp_logo.png",
-			certificate_link:
-				"https://google.qwiklabs.com/public_profiles/e4d5a92b-faf6-4679-a70b-a9047c0cd750",
-			alt_name: "GCP",
+			title: "R Shiny",
+			subtitle: "Years of Experience: 3+\n Expertise: Advanced",
+			logo_path: "shinylogo.png",
 			color_code: "#4285F499"
 		},
 		{
-			title: "Cryptography",
-			subtitle: "- Saurabh Mukhopadhyay",
-			logo_path: "nptel_logo.png",
-			certificate_link:
-				"https://drive.google.com/open?id=1z5ExD_QJVdU0slLkp8CBqSF3-C3g-ro_",
-			alt_name: "NPTEL",
+			title: "GGPLOT2",
+			subtitle: "Years of Experience: 3+\n Expertise: Advanced",
+			logo_path: "ggplotlogo.png",
 			color_code: "#FFBB0099"
 		},
 		{
-			title: "Cloud Architecture",
-			subtitle: "- Qwiklabs",
-			logo_path: "gcp_logo.png",
-			certificate_link:
-				"https://google.qwiklabs.com/public_profiles/5fab4b2d-be6f-408c-8dcb-6d3b58ecb4a2",
-			alt_name: "GCP",
+			title: "SQL",
+			subtitle: "Years of Experience: 3+\n Expertise: Advanced",
+			logo_path: "sqllogo.png",
 			color_code: "#4285F499"
 		}
 	]
@@ -538,7 +442,7 @@ const blogSection = {
   link: "https://ashutoshhathidara.wordpress.com",
   avatar_image_path: "blogs_image.svg"
 
-  
+
 };
 
 // Talks Sections
@@ -573,8 +477,8 @@ const podcastSection = {
 const contactInfo = {
   title: "Contact Me ☎️",
   subtitle: "Discuss a project or just want to say hi my inbox is open for all",
-  number: "+92-3243454077",
-  email_address: "saadpasta70@gmail.com"
+  number: "+1(515) 981-8460",
+  email_address: "rushabh.patel5@gmail.com"
 };
 
 export {

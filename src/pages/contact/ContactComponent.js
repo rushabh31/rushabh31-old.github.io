@@ -9,7 +9,6 @@ import './ContactComponent.css';
 
 
 const blogSection = {
-	/* Blogs Section */
 
 	title: "Blogs",
 	subtitle:
@@ -21,20 +20,20 @@ const blogSection = {
 const addressSection = {
 	title: "Address",
 	subtitle:
-		"Ambavadi vas, Kanodar, T.A.-Palanpur, Dist.-Banaskantha, Gujarat - 385520",
+		"Grand Central Dr, Hamilton, NJ 08619, USA",
 	avatar_image_path: "address_image.svg",
 	location_map_link: "https://goo.gl/maps/MpMqtRZytFchMkZ76"
 };
 
 const phoneSection = {
     title: "Phone Number",
-    subtitle: "+91 8320758513"
+    subtitle: "+1(515) 981-8460"
 }
 
 const ContactData = {
 	title: "Contact Me",
     profile_image_path: "animated_ashutosh.png",
-    description: "I am available on almost every social media. You can message me, I will reply within 24 hours. I can help you with ML, AI, React, Android, Cloud and Opensource Development."
+    description: "Get in touch with me."
 };
 
 class Contact extends Component {

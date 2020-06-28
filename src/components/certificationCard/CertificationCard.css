@@ -9,6 +9,7 @@
     box-shadow: 5px 5px 5px #d9dbdf;
     margin-bottom: 30px;
     flex: 0 0 30%;
+    background-color: cornsilk;
 }
 
 .cert-header {
@@ -37,6 +38,8 @@
     font-size: 18px;
     color: #808080;
     margin:10px;
+    white-space: pre-wrap;
+
 }
 
 .content {
