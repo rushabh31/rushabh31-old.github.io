@@ -29,8 +29,9 @@
   height:400px;
 }
 
+
 @media screen and (max-width: 600px) {
-  .mobile-js-hide {
+  #feature {
     visibility: hidden;
     clear: both;
     float: left;
@@ -39,6 +40,8 @@
     display: none;
   }
 }
+
+
 
 .skills-header {
   font-size: 50px;
