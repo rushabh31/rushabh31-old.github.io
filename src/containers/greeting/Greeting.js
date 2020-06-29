@@ -11,6 +11,7 @@ export default function Greeting() {
         <div className="greeting-main">
           <div className="greeting-text-div">
             <div>
+              <h2> {greeting.title} </h2>
               <p className="greeting-text-p subTitle">{greeting.subTitle}</p>
               <SocialMedia />
 
