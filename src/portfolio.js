@@ -16,7 +16,7 @@ const greeting = {
 	subTitle:
 		"A passionate data scientist having 3+ years of experience and in-depth knowledge of database types, statistical research methodologies, and big data capture, curation, manipulation and visualization",
 	resumeLink:
-		"https://drive.google.com/open?id=1XYpYhLeqCdyx_q6l0bQoC7RgwQjAjXPf"
+		"https://github.com/rushabh31/rushabh31.github.io11/blob/master/Rushabh-Patel-CV.pdf"
 };
 
 const socialMediaLinks = {

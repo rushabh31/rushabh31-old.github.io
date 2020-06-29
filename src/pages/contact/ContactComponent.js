@@ -32,7 +32,7 @@ const phoneSection = {
 
 const ContactData = {
 	title: "Contact Me",
-    profile_image_path: "animated_ashutosh.png",
+    profile_image_path: "rushabh-img-small.png",
     description: "Get in touch with me."
 };
 
@@ -45,11 +45,11 @@ class Contact extends Component {
 							<Fade bottom duration={1000} distance="40px">
 								<div className="contact-heading-div">
 									<div className="contact-heading-img-div">
-										<img
+									<center>	<img
 											src={require(`../../assests/images/${ContactData["profile_image_path"]}`)}
 											alt=""
-										/>
-									</div>
+										/></center>
+									</div> <br/>
 									<div className="contact-heading-text-div">
 										<h1 className="contact-heading-text">
 											{ContactData["title"]}
