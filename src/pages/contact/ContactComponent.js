@@ -13,7 +13,7 @@ const blogSection = {
 	title: "Blogs",
 	subtitle:
 		"For individual fundamental empowerment, I like to write powerful lessons that create impact on each of the reader individually to change the core of their character.",
-	link: "https://ashutoshhathidara.wordpress.com",
+	link: "https://rushabh.info/#/contact",
 	avatar_image_path: "blogs_image.svg"
 };
 
@@ -22,7 +22,7 @@ const addressSection = {
 	subtitle:
 		"Grand Central Dr, Hamilton, NJ 08619, USA",
 	avatar_image_path: "address_image.svg",
-	location_map_link: "https://goo.gl/maps/MpMqtRZytFchMkZ76"
+	location_map_link: "https://www.google.com/maps/place/Grand+Central+Dr,+Hamilton+Township,+NJ+08619/@40.2583206,-74.7077717,17z/data=!3m1!4b1!4m5!3m4!1s0x89c158a0bd3cfe59:0x8297da26f4d8d2c9!8m2!3d40.2583206!4d-74.705583"
 };
 
 const phoneSection = {

@@ -18,7 +18,7 @@
   color: black;
 }
 
-.header li a {
+/*.header li a {
   display: block;
   padding: 20px 20px;
   color: black;
@@ -27,8 +27,9 @@
 
 .header li a:hover,
 .header .menu-btn:hover {
-  background-color: #f4f4f4;
+  background-color: #1789efab;
 }
+*/
 
 .header .logo {
   display: block;
@@ -44,6 +45,63 @@
   padding: 0 10px;
   color: #1689EF;
 }
+
+
+.header ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.header li a {
+  color: black;
+  display: block;
+  position: relative;
+  text-decoration: none;
+
+  padding: 20px 20px 10px;
+}
+
+.header li a:before, .header li a:after {
+  content: "";
+  bottom: 0;
+  width: 0px;
+  height: 2px;
+  display: block;
+  position: absolute;
+  color: white;
+  background-color: black;
+  -webkit-transition: all 0.3s ease-in-out;
+          transition: all 0.3s ease-in-out;
+}
+
+.header li a:before { right: 50%; }
+.header li a:after { left: 50%; }
+
+.header li a:hover:before , .header li a:hover:after {
+  width: 50%;
+}
+
+@keyframes grow {
+  0% { transform: scale(1) rotate(0deg); }
+  50% { transform: scale(1.6) rotate(10deg);}
+}
+
+@-webkit-keyframes grow {
+  0% { transform: scale(1) rotate(0deg); }
+  50% { transform: scale(1.6) rotate(10deg);}
+}
+
+@media only screen and (max-width: 290px) {
+  header nav ul {
+    width: 100%;
+    text-align: center;
+    flex-direction: column;
+  }
+}
+
+
+
+
 
 /* menu */
 

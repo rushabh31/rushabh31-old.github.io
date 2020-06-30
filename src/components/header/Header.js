@@ -17,12 +17,13 @@ function Header() {
 					<label className="menu-icon" htmlFor="menu-btn">
 						<span className="navicon"></span>
 					</label>
+          <div class="topBotomBordersOut">
 					<ul className="menu">
 						<li>
 							<NavLink
 								to="/home"
 								tag={Link}
-								activeStyle={{ fontWeight: "bold" }}
+								activeStyle={{ fontWeight: "bold", backgroundColor:'rgba(23, 137, 239, 0.21)' }}
 							>
 								Home
 							</NavLink>
@@ -31,7 +32,7 @@ function Header() {
 							<NavLink
 								to="/education"
 								tag={Link}
-								activeStyle={{ fontWeight: "bold" }}
+								activeStyle={{ fontWeight: "bold" , backgroundColor:'rgba(23, 137, 239, 0.21)' }}
 							>
 								Education
 							</NavLink>
@@ -40,7 +41,7 @@ function Header() {
 							<NavLink
 								to="/experience"
 								tag={Link}
-								activeStyle={{ fontWeight: "bold" }}
+								activeStyle={{ fontWeight: "bold" , backgroundColor:'rgba(23, 137, 239, 0.21)' }}
 							>
 								Experience
 							</NavLink>
@@ -49,22 +50,23 @@ function Header() {
 							<NavLink
 								to="/projects"
 								tag={Link}
-								activeStyle={{ fontWeight: "bold" }}
+								activeStyle={{ fontWeight: "bold" , backgroundColor:'rgba(23, 137, 239, 0.21)' }}
 							>
 								Projects
 							</NavLink>
 						</li>
-						
+
 						<li>
 							<NavLink
 								to="/contact"
 								tag={Link}
-								activeStyle={{ fontWeight: "bold" }}
+								activeStyle={{ fontWeight: "bold" , backgroundColor:'rgba(23, 137, 239, 0.21)' }}
 							>
 								Contact Me
 							</NavLink>
 						</li>
 					</ul>
+          </div>
 				</header>
 			</div>
 		</Fade>

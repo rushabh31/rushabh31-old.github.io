@@ -9,8 +9,9 @@ import { Fade } from "react-reveal";
 const experience = {
 	title: "Experience",
 	subtitle: "Work, Internships and Publications",
+	quote_symbol: "\u201C",
 	description:
-		"I have worked with many evolving startups as ML and DL Developer, Designer and Software Architect. I have also worked with some well established companies mostly as AI Developer. I love organising events and that is why I am also involved with many opensource communities as a representative.",
+		"The only source of knowledge is experience. - Albert Einstein",
 	header_image_path: "experience.svg",
 	sections: [
 		{
@@ -213,9 +214,12 @@ class Experience extends Component {
 								<h3 className="experience-heading-sub-text">
 									{experience["subtitle"]}
 								</h3>
-								<p className="experience-header-detail-text subTitle">
+								<h2 className="experience-header-detail-text subTitle">
+								<text style={{fontSize:'80px',position:'relative',right:'-10px',bottom:'-35px' }}>{experience.quote_symbol} </text>
+
 									{experience["description"]}
-								</p>
+								</h2>
+
 							</div>
 						</div>
 					</Fade>

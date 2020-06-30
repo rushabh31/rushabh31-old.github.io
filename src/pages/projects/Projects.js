@@ -9,7 +9,8 @@ import './Projects.css';
 
 const projectsHeader = {
     title: "Projects",
-    description: "My projects makes use of vast variety of latest technology tools. My best experience is to create Data Science projects and deploy them to web applications using cloud infrastructure.",
+    quote_symbol: "\u201C",
+    description: "The measure of who we are is what we do with what we have. - Vince Lombardi",
     avatar_image_path: "projects_image.svg"
 }
 
@@ -32,9 +33,11 @@ class Projects extends Component {
 										<h1 className="projects-heading-text">
 											{projectsHeader.title}
 										</h1>
-										<p className="projects-header-detail-text subTitle">
+										<h2 className="projects-header-detail-text subTitle">
+                    <text style={{fontSize:'100px',position:'relative',right:'-10px',bottom:'-45px' }}>{projectsHeader.quote_symbol} </text>
+
 											{projectsHeader["description"]}
-										</p>
+                    </h2>
 									</div>
 								</div>
 							</Fade>
