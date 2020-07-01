@@ -8,6 +8,13 @@
   margin-top: 5%;
 }
 
+.active{
+  font-weight: "bold";
+  background-color: rgba(23, 137, 239, 0.19);
+}
+
+
+
 .contact-heading-div {
   display: flex;
 }

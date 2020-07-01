@@ -271,13 +271,13 @@ const certifications = {
 			title: "R",
 			subtitle: "Years of Experience: 3+\n Expertise: Advanced",
 			logo_path: "rlogo.png",
-			color_code: "#D83B0199"
+			color_code: "#264653"
 		},
 		{
 			title: "Python",
 			subtitle: "Years of Experience: 2+\n Expertise: Intermediate",
 			logo_path: "pythonlogo.png",
-			color_code: "black"
+			color_code: "#264653"
 		},
 		{
 			title: "Apache Spark",
@@ -286,61 +286,61 @@ const certifications = {
 			certificate_link:
 				"https://www.coursera.org/account/accomplishments/specialization/EB4VJARK8647",
 			alt_name: "Google",
-			color_code: "#0C9D5899"
+			color_code: "#264653"
 		},
 		{
 			title: "Scala",
 			subtitle: "Years of Experience: 2+\n Expertise: Intermediate",
 			logo_path: "scalalogo.png",
-			color_code: "#1F70C199"
+			color_code: "#b56576"
 		},
 		{
 			title: "Redshift",
 			subtitle: "Years of Experience: 2+\n Expertise: Intermediate",
 			logo_path: "redshiftlogo.png",
-			color_code: "#D83B0199"
+			color_code: "#b56576"
 		},
 		{
 			title: "Tableau",
 			subtitle: "Years of Experience: 1+\n Expertise: Begineer",
 			logo_path: "tableaulogo.png",
-			color_code: "#1F70C199"
+			color_code: "#b56576"
 		},
 		{
 			title: "H2O.ai",
 			subtitle: "Years of Experience: 2+\n Expertise: Intermediate",
 			logo_path: "h2ologo.png",
-			color_code: "#0C9D5899"
+			color_code: "#1b4332"
 		},
 		{
 			title: "Tensorflow",
 			subtitle: "Years of Experience: < 1\n Expertise: Begineer",
 			logo_path: "tflogo.png",
-			color_code: "#00000099"
+			color_code: "#1b4332"
 		},
 		{
 			title: "PyTorch",
 			subtitle: "Years of Experience: < 1 \n Expertise: Begineer",
 			logo_path: "pytorch-logo.png",
-			color_code: "#2A73CC"
+			color_code: "#1b4332"
 		},
 		{
 			title: "R Shiny",
 			subtitle: "Years of Experience: 3+\n Expertise: Advanced",
 			logo_path: "shinylogo.png",
-			color_code: "#4285F499"
+			color_code: "#5f0f40"
 		},
 		{
 			title: "GGPLOT2",
 			subtitle: "Years of Experience: 3+\n Expertise: Advanced",
 			logo_path: "ggplotlogo.png",
-			color_code: "#FFBB0099"
+			color_code: "#5f0f40"
 		},
 		{
 			title: "SQL",
 			subtitle: "Years of Experience: 3+\n Expertise: Advanced",
 			logo_path: "sqllogo.png",
-			color_code: "#4285F499"
+			color_code: "#5f0f40"
 		}
 	]
 };

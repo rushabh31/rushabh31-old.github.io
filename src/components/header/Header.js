@@ -59,7 +59,7 @@ function Header() {
 							<NavLink
 								to="/contact"
 								tag={Link}
-                activeStyle={{ fontWeight: "bold" , backgroundColor:'rgba(23, 137, 239, 0.19)'}}
+                activeClassName="active"
 							>
 								Contact Me
 							</NavLink>
