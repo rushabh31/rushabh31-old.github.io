@@ -24,7 +24,6 @@
   color: black;
   text-decoration: none;
 }
-
 .header li a:hover,
 .header .menu-btn:hover {
   background-color: #1789efab;
@@ -61,7 +60,7 @@
   padding: 20px 20px 10px;
 }
 
-.header li a:before, .header li a:after {
+/*.header li a:before, .header li a:after {
   content: "";
   bottom: 0;
   width: 0px;
@@ -99,6 +98,35 @@
   }
 }
 
+*/
+
+.header a:before, .header a:after
+{
+    position: absolute;
+    opacity: 0;
+    top: 20px;
+    transition: all 0.3s;
+}
+
+.header a:before
+{
+    content: '<';
+    left: 10px;
+    transform: translateX(10px);
+}
+
+.header a:after
+{
+    content: '/>';
+    right: 0px;
+    transform: translateX(-10px);
+}
+
+.header a:hover:before, .header a:hover:after
+{
+    opacity: 1;
+    transform: translateX(0px);
+}
 
 
 
