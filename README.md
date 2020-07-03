@@ -1,6 +1,6 @@
-# Software Developer Master Portfolio ⚡️  
+# Personal Website Portfolio ⚡️  
 
-[![HitCount](http://hits.dwyl.com/ashutosh1919/masterPortfolio.svg)](http://hits.dwyl.com/ashutosh1919/masterPortfolio)
+[![HitCount](http://hits.dwyl.com/rushabh31/rushabh31githubio.svg)](http://hits.dwyl.com/rushabh31/rushabh31githubio)
 
 
 ## A clean, beautiful and responsive portfolio template for Developers!
@@ -15,10 +15,10 @@
 </p>
 
 
-If you want to **contribute** and make this much better for other developer have a look at [Issues](https://github.com/ashutosh1919/masterPortfolio/issues).
+If you want to **contribute** and make this much better for other developer have a look at [Issues](https://github.com/rushabh31/rushabh31.github.io/issues).
 
 
-If you created something awesome and want to contribute then feel free to open Please don't hesitate to open an [pull request](https://github.com/ashutosh1919/masterPortfolio/pulls).
+If you created something awesome and want to contribute then feel free to open Please don't hesitate to open an [pull request](https://github.com/rushabh31/rushabh31.github.io/pulls).
 
 
 ## Sections
@@ -31,7 +31,7 @@ If you created something awesome and want to contribute then feel free to open P
 ✔️ Education\
 ✔️ Contact me
 
-To view a live example, **[click here](https://ashutosh1919.github.io/)**
+To view a live example, **[click here](https://rushabh.info/)**
 
 ## Technologies used 🛠️
 
@@ -56,7 +56,7 @@ This project is licensed under the MIT License - see the [LICENSE.md](./LICENSE)
 
 
 ## For the Future
-If you can help us with these. Please don't hesitate to open an [pull request](https://github.com/ashutosh1919/masterPortfolio/pulls).
+If you can help us with these. Please don't hesitate to open an [pull request](https://github.com/rushabh31/rushabh31.github.io/pulls).
 
 - Move to Gatsby
 
