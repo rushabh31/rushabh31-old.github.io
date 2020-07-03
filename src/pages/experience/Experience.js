@@ -272,7 +272,7 @@ class Experience extends Component {
 				<br/ >
         <br/><br/>
 				<div><center><h2> LinkedIn Recommendations</h2> <br/><br/>
-				<Carousel autoPlay = {true} showThumbs={false} showStatus={false} useKeyboardArrows className="presentation-mode">
+				<Carousel autoPlay = {true} showThumbs={false} showStatus={false} useKeyboardArrows centerSlidePercentage={50}>
 				     {/*Natalie's Recommendation*/}
 								<div key="content-5" className="my-slide-content">
 								    <br/>
@@ -511,7 +511,7 @@ Dr. Yanhui Guo</blockquote>
 
 
             </Carousel> </center>
-						</div><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+						</div>
 				<Footer />
 			</div>
 		);
