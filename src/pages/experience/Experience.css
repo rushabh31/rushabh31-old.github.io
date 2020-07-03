@@ -86,3 +86,72 @@
   }
 
 }
+
+
+.circular--portrait {
+  position: relative;
+  width: 120px;
+  height: 120px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.circular--portrait img {
+  width: 100%;
+  height: auto;
+}
+
+
+.carousel-root {
+    outline: none;
+    max-width: 800px;
+    max-height: 500px;
+}
+
+.carousel .slide {
+    min-width: 100%;
+    margin: 0;
+    position: relative;
+    text-align: center;
+    background: #00000;
+    color: coral;
+}
+
+
+
+
+.textcs{
+
+  position: relative;
+  color: #f5f5f5;
+  text-align: justify;
+ text-justify: inter-word;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  height: 400px;
+  width: 745px;
+  padding-left: 50px;
+  font-family: Consolas,'Courier New',Monaco,Courier,monospace;
+  /*font-family:aerial;*/
+  line-height: 18px;
+  overflow: scroll;
+  /*quotes: "\201C""\201D""\2018""\2019";*/
+}
+
+
+/*.textcs:before {
+			color: #ccc;
+			content: open-quote;
+			position: absolute;
+			left: 10px;
+			top: 30px;
+			font-size: 4em;
+			line-height: 0.1em;
+			margin-right: 0.25em;
+			vertical-align: -0.4em;
+		}
+
+		.textcs p {
+			display: inline;
+		}
+*/
