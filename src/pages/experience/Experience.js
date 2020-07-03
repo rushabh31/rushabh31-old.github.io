@@ -24,7 +24,12 @@ const experience = {
 					logo_path: "chop.png",
 					duration: "June 2020 - PRESENT",
 					location: "Philadelphia, PA",
-					description: "I am working on automating healthcare products. The projects involve automation for process improvements and for significantly enhancing the profits. I am currently working on Cancer Survival and Reoccurence Prediction. Our goal is to make AI system which scales and removes doctor dependency as much as possible.",
+					description: ["⦿ Applying natural language processing methods to clinical text to extract structured information.",<br/>,
+					"⦿ Using the latest deep learning techniques to classify imaging studies",<br/>,
+					"⦿ Applying statistical models (with a focus on Bayesian methods) to assist researchers in analyzing missing, erroneous or incomplete patient data",<br/>,
+					"⦿ Writing tools and visualizations to surface data insights from the above methods to researchers working within the Arcus platform"
+
+					],
 					color: "#0879bf"
 				},
 				{
@@ -34,8 +39,15 @@ const experience = {
 					logo_path: "vnsny.png",
 					duration: "Feb 2019 - June 2020",
 					location: "New York City, NY",
-					description:
-						"- Develop, build, test and deploy machine learning algorithms to support development of business processes for healthcare organization and subsidiary health plan provider, to improve business outcomes and quality of care.  \- Create and maintain framework for deploying machine learning algorithms using APIs. - Utilize resulting applications to implement, track and monitor predictive models used to guide business decisions. - Engineer computational solutions and develop algorithms and applications to meet the predictive  needs of clinical and business units across the Visiting Nurse Service of New York. - Identify clusters of sub-populations of patients who may benefit from targeted care-management strategies: improves positive predicted value for patient outcomes based on sub-modeling for each cluster. - Ensure accuracy of deployed algorithms is monitored on ongoing basis alert management when algorithm performance declines, identify causes. - Ensure data quality throughout all stages of acquisition and processing, including sourcing, collection, ground truth generation, normalization & transformation.Programming languages\Techniques\tools: R, SQL, Python, Apache Spark, Tableau, H2O, Random Forest, XGBoost, Light GBM, Regression, Clustering, KNN, GBM, PCA, SVD.",
+					description:[
+						" ⦿ Develop, build, test and deploy machine learning algorithms to support development of business processes for healthcare organization and subsidiary health plan provider, to improve business outcomes and quality of care.", <br/>,
+						" ⦿ Create and maintain framework for deploying machine learning algorithms using APIs.",<br/>,
+						" ⦿ Utilize resulting applications to implement, track and monitor predictive models used to guide business decisions.",<br/>,
+						" ⦿ Engineer computational solutions and develop algorithms and applications to meet the predictive  needs of clinical and business units across the Visiting Nurse Service of New York.",<br/>,
+						" ⦿ Identify clusters of sub-populations of patients who may benefit from targeted care-management strategies: improves positive predicted value for patient outcomes based on sub-modeling for each cluster.",<br/>,
+						" ⦿ Ensure accuracy of deployed algorithms is monitored on ongoing basis alert management when algorithm performance declines, identify causes.",<br/>,
+						" ⦿ Ensure data quality throughout all stages of acquisition and processing, including sourcing, collection, ground truth generation, normalization & transformation.", <br/>,<br/>,
+						" Programming languages\\Techniques\\tools: R, SQL, Python, Apache Spark, Tableau, H2O, Random Forest, XGBoost, Light GBM, Regression, Clustering, KNN, GBM, PCA, SVD."],
 					color: "#9b1578"
 				},
 				{
@@ -45,8 +57,15 @@ const experience = {
 					logo_path: "jvion.png",
 					duration: "June 2017 - Jan 2019",
 					location: "Johns Creek, GA",
-					description:
-						"Design statistical models/programs using R/Python to successfully test hypotheses and answer targeted questions in healthcare outcomes research. • Design algorithms for the recommended actions/interventions that will best prevent adverse events and deterioration. • Cluster analysis for identifying sub-populations of complex patients who may benefit from targeted care management strategies and improvising positive predicted value for patient outcome by sub-modelling on each cluster. • Perform analysis on the targets including hospital readmission among Acute Myocardial Infarction (AMI) patients, IP visits, ER visits, MRSA among diabetes patients, congestive heart failure,Clostridium difficile (C. diff.), pressure injury,sepsis and fall-injury. • Writing complex SQL queries for data investigation and mapping to extract data for analysis. • Build algorithms to reduce predictive analytics in driving population-level insights and the expected ROI from predictive population health analytic solutions. • Report and visualize results of statistical analyses, in the form of graphs, charts, and tables using Tableau. Programming languages\Techniques\tools: R, SQL, Python, Apache Spark,Tableau, H2O, Random Forest, XGBoost, HDBSCAN Clustering, KNN, GBM, PCA, SVD.",
+					description:[
+						" ⦿ Design statistical models/programs using R/Python to successfully test hypotheses and answer targeted questions in healthcare outcomes research.", <br/>,
+						" ⦿ Design algorithms for the recommended actions/interventions that will best prevent adverse events and deterioration.", <br/>,
+						" ⦿ Cluster analysis for identifying sub-populations of complex patients who may benefit from targeted care management strategies and improvising positive predicted value for patient outcome by sub-modelling on each cluster.", <br/>,
+						" ⦿ Perform analysis on the targets including hospital readmission among Acute Myocardial Infarction (AMI) patients, IP visits, ER visits, MRSA among diabetes patients, congestive heart failure,Clostridium difficile (C. diff.), pressure injury,sepsis and fall-injury.", <br/>,
+						" ⦿ Writing complex SQL queries for data investigation and mapping to extract data for analysis.", <br/>,
+						" ⦿ Build algorithms to reduce predictive analytics in driving population-level insights and the expected ROI from predictive population health analytic solutions.", <br/>,
+						" ⦿ Report and visualize results of statistical analyses, in the form of graphs, charts, and tables using Tableau.", <br/>, <br/>,
+						" Programming languages\\Techniques\\tools: R, SQL, Python, Apache Spark,Tableau, H2O, Random Forest, XGBoost, HDBSCAN Clustering, KNN, GBM, PCA, SVD."],
 					color: "#fc1f20"
 				},
 				{
@@ -56,8 +75,13 @@ const experience = {
 					logo_path: "paytooth.png",
 					duration: "July 2015 - April 2016",
 					location: "Pune, Maharashtra, India",
-					description:
-						"• Proposed a new idea where money can be transferred easily in absence or low range of cellular network. • Analyzed survey data on mobile payment gateways in India to ensure the product launching strategy. • Contributed in ensuring all implementations consistent with Software Development Lifecycle (SDLC) standards. • Involved in creating process flow diagrams for overall business specification. • Involved in understanding of data extraction, which involves Online Transfer Processing (OLTP) system and centralized database server. Programming languages\Techniques\tools: R, ETL Processing, SQL, MS ACCESS, MS EXCEL (V-Lookup, Macros, Pivot Tables).",
+					description:[
+						" ⦿ Proposed a new idea where money can be transferred easily in absence or low range of cellular network.",<br/>,
+						" ⦿ Analyzed survey data on mobile payment gateways in India to ensure the product launching strategy.",<br/>,
+						" ⦿ Contributed in ensuring all implementations consistent with Software Development Lifecycle (SDLC) standards.",<br/>,
+						" ⦿ Involved in creating process flow diagrams for overall business specification.",<br/>,
+						" ⦿ Involved in understanding of data extraction, which involves Online Transfer Processing (OLTP) system and centralized database server.",<br/>,<br/>,
+						" Programming languages\\Techniques\\tools: R, ETL Processing, SQL, MS ACCESS, MS EXCEL (V-Lookup, Macros, Pivot Tables)."],
 					color: "#fc1f20"
 				}
 			]
@@ -74,8 +98,13 @@ const experience = {
 					logo_path: "uis.png",
 					duration: "March 2017 - May 2017",
 					location: "Springfield, IL",
-					description:
-						"• Worked as a Data Science Analyst on pediatric cancer patient data from SIU School of Medicine (SIUSOM). • Applied statistical & predictive modeling techniques to identify significant patterns in the diagnosis and treatment of the SIUSOM’s service region of central and southern Illinois. • Performed the initial statistical exploration using R to gain insights on the data • Analyzed data to find specific correlations between demographic information and disease unique to the pediatric patients that are served by SIUSOM. • Concentrated on linkages between socioeconomic status, racial/ethnic demographics, zip code, and other demographic factors and specific pediatric diseases. • Analyzed these linkages in a manner that allows clinician researchers to reexamine our approaches and treatment plans on the patients that we serve. Programming languages\Techniques\tools: R, SQL, MS EXCEL, Tableau, Exploratory Data Analysis, Chi-Squared Test, Association Rules, Logistic Regression, LDA, QDA, KNN, tree classification and random forest method.",
+					description:[
+						" ⦿ Worked as a Data Science Analyst on pediatric cancer patient data from SIU School of Medicine (SIUSOM).",<br/>,
+						" ⦿ Applied statistical & predictive modeling techniques to identify significant patterns in the diagnosis and treatment of the SIUSOM’s service region of central and southern Illinois.",<br/>,
+						" ⦿ Performed the initial statistical exploration using R to gain insights on the data • Analyzed data to find specific correlations between demographic information and disease unique to the pediatric patients that are served by SIUSOM.",<br/>,
+						" ⦿ Concentrated on linkages between socioeconomic status, racial/ethnic demographics, zip code, and other demographic factors and specific pediatric diseases.",<br/>,
+						" ⦿ Analyzed these linkages in a manner that allows clinician researchers to reexamine our approaches and treatment plans on the patients that we serve.",<br/>,<br/>,
+						" Programming languages\\Techniques\\tools: R, SQL, MS EXCEL, Tableau, Exploratory Data Analysis, Chi-Squared Test, Association Rules, Logistic Regression, LDA, QDA, KNN, tree classification and random forest method."],
 					color: "#0071C5"
 				},
 				{
@@ -86,8 +115,15 @@ const experience = {
 					logo_path: "uis.png",
 					duration: "May 2016 - August 2016",
 					location: "Springfield, IL",
-					description:
-						"• Worked on a Supply Chain Management Project to ensure a proper level of inventory in a warehouse by forecast recommendations. • Collected and reviewed data from different research studies. • Wrote R code to perform statistical analysis and meta-analysis on data to get key insights. • Used R packages like Carat, ggplot2, sqldf, metafor to create statistical models and perform visual data analysis. • Involved in defining the source to target data mappings, business rules, and data definitions. • Performed data analysis and data profiling using complex SQL on various sources systems. • Created dashboards in Excel to understand visualizations for non-technical users.Programming languages\Techniques\tools: R, Excel, Pivot table, VLOOKUP, SQL, t-test, Hypothesis testing, descriptive Statistics.",
+					description:[
+						" ⦿ Worked on a Supply Chain Management Project to ensure a proper level of inventory in a warehouse by forecast recommendations.",<br/>,
+						" ⦿ Collected and reviewed data from different research studies.",<br/>,
+						" ⦿ Wrote R code to perform statistical analysis and meta-analysis on data to get key insights. ",<br/>,
+						" ⦿ Used R packages like Carat, ggplot2, sqldf, metafor to create statistical models and perform visual data analysis.",<br/>,
+						" ⦿ Involved in defining the source to target data mappings, business rules, and data definitions.",<br/>,
+						" ⦿ Performed data analysis and data profiling using complex SQL on various sources systems.",<br/>,
+						" ⦿ Created dashboards in Excel to understand visualizations for non-technical users.",<br/>,<br/>,
+						"Programming languages\\Techniques\\tools: R, Excel, Pivot table, VLOOKUP, SQL, t-test, Hypothesis testing, descriptive Statistics."],
 					color: "#0071C5"
 				},
 				{
@@ -98,8 +134,12 @@ const experience = {
 					logo_path: "uis.png",
 					duration: "Jan 2016 - April 2016",
 					location: "Springfield, IL",
-					description:
-						"• Worked on a project name A Novel Computer Aided Diagnosis(CAD) System for Breast Cancer Based on Convolution Neural Network(CNN). • It is presented using an innovative tumor classification method based on convolution neural network on breast mammogram images to improve the diagnosis accuracy. • A novel training and testing scheme is also proposed to train CNN in an image dataset with limited case number. • A novel reinforcement sample learning scheme is proposed to train the CNN with less iteration epochs and less training time. Programming languages\Techniques\tools: MATLAB, R, Neural Network, Conjugate Gradient Method.",
+					description:[
+						" ⦿ Worked on a project name A Novel Computer Aided Diagnosis(CAD) System for Breast Cancer Based on Convolution Neural Network(CNN).",<br/>,
+						" ⦿ It is presented using an innovative tumor classification method based on convolution neural network on breast mammogram images to improve the diagnosis accuracy.",<br/>,
+						" ⦿ A novel training and testing scheme is also proposed to train CNN in an image dataset with limited case number.",<br/>,
+						" ⦿ A novel reinforcement sample learning scheme is proposed to train the CNN with less iteration epochs and less training time.",<br/>,<br/>,
+						" Programming languages\\Techniques\\tools: MATLAB, R, Neural Network, Conjugate Gradient Method."],
 					color: "#0071C5"
 				},
 				{
@@ -110,7 +150,7 @@ const experience = {
 					duration: "Jan 2014 - May 2014",
 					location: "Bengluru, Karnataka",
 					description:
-						"• Worked on a project named Document Processing System, which holds data for customers involved in a claim.",
+						"⦿ Worked on a project named Document Processing System, which holds data for customers involved in a claim.",
 					color: "#ee3c26"
 				}
 

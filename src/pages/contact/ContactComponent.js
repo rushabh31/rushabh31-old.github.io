@@ -62,7 +62,7 @@ class Contact extends Component {
 											<Button
 												text="See My Resume"
 												newTab={true}
-												href={greeting.resumeLink}
+												href={require(`../../assests/Resume.pdf`)}
 											/>
 										</div>
 									</div>

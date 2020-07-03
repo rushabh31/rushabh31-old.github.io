@@ -8,10 +8,21 @@
   margin-top: 5%;
 }
 
-.active{
-  font-weight: "bold";
-  background-color: rgba(23, 137, 239, 0.19);
+
+
+
+
+.active1 li a:hover {
+    display: block;
+    padding: 20px 20px;
+    color: blue;
+    text-decoration: none;
 }
+
+
+
+
+
 
 
 

@@ -48,40 +48,6 @@
   color: #1689EF;
 }
 
-
-/*
-
-.header li a:before, .header li a:after
-{
-    position: absolute;
-    opacity: 0;
-    top: 20px;
-    transition: all 0.3s;
-}
-
-
-.header li a:before
-{
-    content: '<';
-    left: 10px;
-    transform: translateX(10px);
-}
-
-.header li a:after
-{
-    content: '/>';
-    right: 0px;
-    transform: translateX(-10px);
-}
-
-.header li a:hover:before, .header li a:hover:after
-{
-    opacity: 1;
-    transform: translateX(0px);
-}
-
-*/
-
 .header li a:before, .header li a:after
 {
     opacity: 0;

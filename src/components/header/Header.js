@@ -17,7 +17,7 @@ function Header() {
 					<label className="menu-icon" htmlFor="menu-btn">
 						<span className="navicon"></span>
 					</label>
-          
+
 					<ul className="menu">
 						<li>
 							<NavLink
@@ -59,8 +59,10 @@ function Header() {
 						<li>
 							<NavLink
 								to="/contact"
+                className = "test_active"
 								tag={Link}
-                activeClassName="active"
+                exact
+                activeClassName="active1"
 							>
 								Contact Me
 							</NavLink>
