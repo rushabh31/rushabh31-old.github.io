@@ -3,7 +3,8 @@ import Header from "../../components/header/Header";
 import Greeting from "../../containers/greeting/Greeting";
 import Skills from "../../containers/skills/Skills";
 import Footer from "../../components/footer/Footer";
-
+import Particles from 'react-particles-js';
+import "./HomeComponent.css";
 class Home extends Component {
   render() {
     return (
@@ -12,7 +13,10 @@ class Home extends Component {
         <Greeting />
         <Skills />
         <Footer />
+        
+
       </div>
+
     );
   }
 }

@@ -19,7 +19,9 @@ class ExperienceAccordion extends Component {
 							</Panel>
 						);
 					})}
+
 				</Accordion>
+
 			</div>
 		);
 	}

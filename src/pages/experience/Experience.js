@@ -5,6 +5,7 @@ import ExperienceAccordion from '../../containers/experienceAccordion/Experience
 import ReactDOM from 'react-dom';
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from 'react-responsive-carousel';
+import Particles from 'react-particles-js';
 
 // import experience from '../../shared/experience_data.json';
 import "./Experience.css";
@@ -267,6 +268,7 @@ class Experience extends Component {
 							</div>
 						</div>
 					</Fade>
+
 				</div>
 				<ExperienceAccordion sections={experience["sections"]} />
 				<br/ >
@@ -509,11 +511,16 @@ Dr. Yanhui Guo</blockquote>
 
 
 
-
+											
             </Carousel> </center>
+
 						</div>
+
 				<Footer />
+
 			</div>
+
+
 		);
 	}
 }

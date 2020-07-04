@@ -7,6 +7,7 @@ import CompetitiveSites from '../../components/competitiveSites/CompetitiveSites
 import {competitiveSites}  from "../../portfolio";
 import "./EducationComponent.css";
 import { Fade } from "react-reveal";
+import Particles from 'react-particles-js';
 
 class Education extends Component {
   render() {
@@ -37,8 +38,10 @@ class Education extends Component {
           </Fade>
           <Educations/>
           <Certifications />
+
         </div>
         <Footer />
+        
       </div>
     );
   }
