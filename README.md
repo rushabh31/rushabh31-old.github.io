@@ -22,13 +22,10 @@ If you created something awesome and want to contribute then feel free to open P
 
 
 ## Sections
-✔️ Summary and About me\
-✔️ Skills \
-✔️ Open Source Projects Connected with Github\
+✔️ Home \
+✔️ Education \
 ✔️ Experience\
-✔️ Certifications 🏆\
-✔️ Blogs\
-✔️ Education\
+✔️ Projects \
 ✔️ Contact me
 
 To view a live example, **[click here](https://rushabh.info/)**
@@ -51,20 +48,6 @@ I highly recommend to use [Github Pages](https://create-react-app.dev/docs/deplo
 ## License 📄
 
 This project is licensed under the MIT License - see the [LICENSE.md](./LICENSE) file for details
-
-
-
-
-## For the Future
-If you can help us with these. Please don't hesitate to open an [pull request](https://github.com/rushabh31/rushabh31.github.io/pulls).
-
-- Move to Gatsby
-
-- Add Podcast Section and Video Section
-
-- Add tests to automate review.
-
-- Setup Travis workflow.
 
 
 ## References  
