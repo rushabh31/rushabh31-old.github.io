@@ -9,7 +9,7 @@ const theme = {
 const greeting = {
 	/* Your Summary And Greeting Section */
 	//title: "Hi all 👋 I'm Saad",
-	title: "Hi I'm Rushabh",
+	title: "Hi I am Rushabh !!!",
 	//nickname: "layman_brother",
 	// subTitle:
 	//   "A passionate data scientist 🚀 having 3+ years of experience and in-depth knowledge of database types, statistical research methodologies, and big data capture, curation, manipulation and visualization",

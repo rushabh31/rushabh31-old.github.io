@@ -43,6 +43,21 @@
   font-family: "Google Sans Bold Italic";
 }
 
+
+
+@font-face{
+  font-family: "BeautyDemo";
+  font-size: 40px;
+  src: url("../../components/header/BeautyDemo.ttf") format("truetype");
+}
+
+.greetingtit{
+  font-family: "BeautyDemo";
+  font-size: 60px;
+  line-height: 40px;
+  margin-right: 40px;
+}
+
 .greeting-text-p {
   font-size: 30px;
   line-height: 40px;

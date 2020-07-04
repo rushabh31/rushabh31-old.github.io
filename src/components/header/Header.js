@@ -24,7 +24,7 @@ function Header() {
 							<NavLink
 								to="/home"
 								tag={Link}
-								activeStyle={{ fontWeight: "bold" , backgroundColor:'rgba(23, 137, 239, 0.19)' }}
+								activeStyle={{ fontWeight: "bold" , color:'#a92750' }}
 							>
 								Home
 							</NavLink>
@@ -33,7 +33,7 @@ function Header() {
 							<NavLink
 								to="/education"
 								tag={Link}
-								activeStyle={{ fontWeight: "bold", backgroundColor:'rgba(23, 137, 239, 0.19)' }}
+								activeStyle={{ fontWeight: "bold", color:'#a92750' }}
 							>
 								Education
 							</NavLink>
@@ -42,7 +42,7 @@ function Header() {
 							<NavLink
 								to="/experience"
 								tag={Link}
-								activeStyle={{ fontWeight: "bold" , backgroundColor:'rgba(23, 137, 239, 0.19)'}}
+								activeStyle={{ fontWeight: "bold" , color:'#a92750'}}
 							>
 								Experience
 							</NavLink>
@@ -51,7 +51,7 @@ function Header() {
 							<NavLink
 								to="/projects"
 								tag={Link}
-								activeStyle={{ fontWeight: "bold" , backgroundColor:'rgba(23, 137, 239, 0.19)'}}
+								activeStyle={{ fontWeight: "bold" , color:'#a92750'}}
 							>
 								Projects
 							</NavLink>
@@ -63,7 +63,7 @@ function Header() {
                 className = "test_active"
 								tag={Link}
                 exact
-                activeClassName="active1"
+                activeStyle={{ fontWeight: "bold" , color:'#a92750'}}
 							>
 								Contact Me
 							</NavLink>

@@ -29,8 +29,7 @@ class Education extends Component {
 
                   <text style={{fontSize:'80px',position:'relative',right:'-10px',bottom:'-35px' }}> &#8220; </text>
 
-                  Live as if you were to die tomorrow. Learn as if you were to live forever.
-                  - Mahatma Gandhi
+                  Live as if you were to die tomorrow. Learn as if you were to live forever. - Mahatma Gandhi
                 </h3>
                 <CompetitiveSites logos={competitiveSites.competitiveSites} />
               </div>
@@ -41,7 +40,7 @@ class Education extends Component {
 
         </div>
         <Footer />
-        
+
       </div>
     );
   }

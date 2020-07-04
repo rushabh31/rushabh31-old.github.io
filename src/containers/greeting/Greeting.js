@@ -22,7 +22,7 @@ export default function Greeting() {
           <div className="greeting-text-div">
             <div>
 
-              <h2> {greeting.title} </h2>
+              <h2 className='greetingtit'> {greeting.title} </h2>
               <p className="greeting-text-p subTitle">{greeting.subTitle}</p>
               <SocialMedia />
 
@@ -37,7 +37,7 @@ export default function Greeting() {
           <div className="greeting-image-div">
             <img
               alt="Rushabh sitting on table"
-              src={require("../../assests/images/statistics-chart.svg")}
+              src={require("../../assests/images/graphic_chart.svg")}
             ></img>
           </div>
 

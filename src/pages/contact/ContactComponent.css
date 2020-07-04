@@ -12,12 +12,43 @@
 
 
 
-.active1 li a:hover {
-    display: block;
-    padding: 20px 20px;
-    color: blue;
-    text-decoration: none;
+.active1 {
+  color: blue !important;
+  text-decoration: none;
 }
+
+
+.active1::before, .active1::after
+{
+    opacity: 0;
+    transition: all 0.3s;
+}
+
+.active1::after {
+  font-family:"Agustina Regular";
+  content: "/>";
+  transform: translateX(-10px);
+  font-weight:normal;
+  font-size: 35px;
+  padding-left: -10px;
+
+}
+
+.active1::before {
+  font-family:"Agustina Regular";
+  content: "<";
+  font-weight:normal;
+  font-size: 35px;
+  transform: translateX(-10px);
+
+}
+
+.active1::before, .active1::after
+{
+    opacity: 1;
+    transform: translateX(0px);
+}
+
 
 
 
