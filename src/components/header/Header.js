@@ -10,7 +10,7 @@ function Header() {
 				<header className="header">
 					<NavLink to="/splash" tag={Link} className="logo">
 						<span className="grey-color"> &lt;</span>
-						<span className="logo-name">RushabhPatel</span>
+						<span className="logo-name">Rushabh Patel</span>
 						<span className="grey-color">/&gt;</span>
 					</NavLink>
 					<input className="menu-btn" type="checkbox" id="menu-btn" />
