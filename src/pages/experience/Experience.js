@@ -262,7 +262,7 @@ class Experience extends Component {
 								<h2 className="experience-header-detail-text subTitle">
 								<text style={{fontSize:'80px',position:'relative',right:'-10px',bottom:'-35px' }}>{experience.quote_symbol} </text>
 
-									{experience["description"]}
+									{experience["description"]}  
 								</h2>
 
 							</div>
@@ -511,7 +511,7 @@ Dr. Yanhui Guo</blockquote>
 
 
 
-											
+
             </Carousel> </center>
 
 						</div>
