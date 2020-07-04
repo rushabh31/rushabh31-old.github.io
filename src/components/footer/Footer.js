@@ -15,7 +15,7 @@ export default function Footer() {
       params={{
         particles: {
           opacity: {
-            value:0.1
+            value:0.05
           },
           size: {
             value: 5
@@ -25,7 +25,7 @@ export default function Footer() {
           },
           lineLinked: {
             color:'#167cd8',
-            opacity:0.1,
+            opacity:0.05,
             distance: 250
 
           },
