@@ -41,10 +41,18 @@
   margin-top: 10px;
   line-height: normal;
 }
+
+@font-face{
+  font-family: "BeautyDemo";
+  font-size: 40px;
+  src: url("./BeautyDemo.ttf") format("truetype");
+}
+
 .header .logo-name {
-  font-family: "Agustina Regular";
+  font-family: "BeautyDemo";
   font-weight: bold;
   padding: 0 10px;
+  font-size: 45px;
   color: #277aa9;
 }
 
