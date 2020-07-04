@@ -1,4 +1,4 @@
-# Personal Website Portfolio ⚡️  
+# Personal Website Portfolio  
 
 [![HitCount](http://hits.dwyl.com/rushabh31/rushabh31githubio.svg)](http://hits.dwyl.com/rushabh31/rushabh31githubio)
 
