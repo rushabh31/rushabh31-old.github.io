@@ -56,7 +56,10 @@ function Header() {
 								Projects
 							</NavLink>
 						</li>
+            <li>
+            <a href="https://rushabh.info/react-blog-github/#/">Blogs</a>
 
+            </li>
 						<li>
 							<NavLink
 								to="/contact"
@@ -68,6 +71,7 @@ function Header() {
 								Contact Me
 							</NavLink>
 						</li>
+
 					</ul>
 				</header>
 			</div>

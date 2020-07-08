@@ -112,8 +112,8 @@
   /*font-family: "Google Sans Regular";*/
   font-family: "BeautyDemo";
   font-weight:normal;
-  padding: 0 10px;
-  font-size: 35px;
+  padding: 0 0px;
+  font-size: 30px;
 }
 
 .header .menu {
@@ -168,7 +168,7 @@
 }
 
 .header .menu-btn:checked ~ .menu {
-  max-height: 370px;
+  max-height: 450px;
 }
 
 .header .menu-btn:checked ~ .menu-icon .navicon {
