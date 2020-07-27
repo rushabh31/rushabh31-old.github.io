@@ -27,7 +27,7 @@ If you created something awesome and want to contribute then feel free to open P
 ✔️ Experience\
 ✔️ Projects \
 ✔️ Contact me
-
+ 
 To view a live example, **[click here](https://rushabh.info/)**
 
 ## Technologies used 🛠️
