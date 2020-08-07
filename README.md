@@ -12,7 +12,7 @@
 		<img src="images/front.PNG"></img>
 	</a>
   </kbd>
-</p>
+</p> 
 
 
 If you want to **contribute** and make this much better for other developer have a look at [Issues](https://github.com/rushabh31/rushabh31.github.io/issues).
