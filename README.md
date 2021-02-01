@@ -48,10 +48,3 @@ I highly recommend to use [Github Pages](https://create-react-app.dev/docs/deplo
 ## License 📄
 
 This project is licensed under the MIT License - see the [LICENSE.md](./LICENSE) file for details
-
-
-## References  
-
-Some Design and Implementation Ideas are taken from 
-- [Saad Pasta's Portfolio Project](https://github.com/saadpasta/developerFolio)
-- [Ashutosh's Portfolio Project](https://github.com/ashutosh1919/masterPortfolio)
