@@ -12,39 +12,39 @@ export default function Footer() {
         <p className="footer-text">Developed by Rushabh Patel</p>
       </Fade>
       <Particles
-      params={{
-        particles: {
-          opacity: {
-            value:0.05
-          },
-          size: {
-            value: 5
-          },
-          color: {
-            value: "#167cd8"
-          },
-          lineLinked: {
-            color:'#167cd8',
-            opacity:0.05,
-            distance: 250
+            params={{
+              particles: {
+                opacity: {
+                  value:0.05
+                },
+                size: {
+                  value: 5
+                },
+                color: {
+                  value: "#167cd8"
+                },
+                lineLinked: {
+                  color:'#167cd8',
+                  opacity:0.05,
+                  distance: 250
 
-          },
-          anim:{
-            sync:true
-          },
-          number: {
-            value: 150
-          }
-        },
-        interactivity: {
-        events: {
-            onhover: {
-                enable: true,
-                mode: "repulse"
+                },
+                anim:{
+                  sync:true
+                },
+                number: {
+                  value: 150
+                }
+              },
+              interactivity: {
+              events: {
+                  onhover: {
+                      enable: true,
+                      mode: "repulse"
+                  }
+              }
             }
-        }
-      }
-      }}
+            }}
       id="mainParticles"
       />
 

@@ -8,6 +8,7 @@ function Header() {
   return (
 
 		<Fade top duration={1000} distance="20px">
+			
 			<div>
 				<header className="header">
 
@@ -31,6 +32,7 @@ function Header() {
 								activeStyle={{ fontWeight: "bold" , color:'#a92750'}}
 							>
 								Home
+								
 							</NavLink>
 						</li>
 						<li>
@@ -80,7 +82,7 @@ function Header() {
 				</header>
 			</div>
 			
-
+			
 		</Fade>
 		
 
