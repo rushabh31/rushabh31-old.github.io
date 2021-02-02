@@ -10,21 +10,21 @@ function Header() {
 				<header className="header">
 
 					<NavLink to="/splash" tag={Link} className="logo">
-						{/*<span className="grey-color"> &lt;</span>*/}
-						<span className="logo-name">Rushabh Patel</span>
-						{/*<span className="grey-color">/&gt;</span>*/}
+						<span className="logo-name"> Rushabh Patel</span>
 					</NavLink>
 					<input className="menu-btn" type="checkbox" id="menu-btn" />
 					<label className="menu-icon" htmlFor="menu-btn">
 						<span className="navicon"></span>
 					</label>
+					{/* <img src={require("../../assests/images/splash_logo.gif")} width = "500px"></img> */}
+
 
 					<ul className="menu">
 						<li>
 							<NavLink
 								to="/home"
 								tag={Link}
-								activeStyle={{ fontWeight: "bold" , color:'#a92750' }}
+								activeStyle={{ fontWeight: "bold" , color:'#a92750'}}
 							>
 								Home
 							</NavLink>
@@ -47,7 +47,7 @@ function Header() {
 								Experience
 							</NavLink>
 						</li>
-						<li>
+						{/* <li>
 							<NavLink
 								to="/projects"
 								tag={Link}
@@ -55,7 +55,7 @@ function Header() {
 							>
 								Projects
 							</NavLink>
-						</li>
+						</li> */}
             <li>
             <a href="https://rushabh.info/react-blog-github/#/">Blogs</a>
 
