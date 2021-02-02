@@ -2,9 +2,11 @@ import React from "react";
 import "./Header.css";
 import { Fade } from "react-reveal";
 import { NavLink, Link } from "react-router-dom";
+import Particles from 'react-particles-js';
 
 function Header() {
   return (
+
 		<Fade top duration={1000} distance="20px">
 			<div>
 				<header className="header">
@@ -18,9 +20,11 @@ function Header() {
 					</label>
 					{/* <img src={require("../../assests/images/splash_logo.gif")} width = "500px"></img> */}
 
-
+			
 					<ul className="menu">
+						
 						<li>
+							
 							<NavLink
 								to="/home"
 								tag={Link}
@@ -75,8 +79,11 @@ function Header() {
 					</ul>
 				</header>
 			</div>
+			
 
 		</Fade>
+		
+
 	);
 }
 export default Header;
