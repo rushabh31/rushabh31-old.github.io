@@ -67,8 +67,12 @@
 .greeting-text-p {
   font-size: 30px;
   line-height: 40px;
-  margin-right: 40px;
   font-family:"cassette";
+  text-align: center;
+  margin-top: 150px;
+  margin-left: 50px;
+
+  
 }
 
 .greeting-image-div > img {
@@ -76,16 +80,28 @@
   height: auto;
 }
 
-/* Media Query */
-@media (max-width: 1380px) {
-  .greeting-text {
-    font-size: 50px;
-  }
-  .greeting-text-p {
-    font-size: 40px;
-    font-family:"cassette";
-  }
+
+
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+    .greeting-text {
+      font-size: 50px;
+    }
+    .greeting-text-p {
+      font-size: 30px;
+      font-family:"cassette";
+      font-size: 20px;
+      text-align: center;
+      margin-left: 50px;
+      line-height: 20px;
+      margin-top: 100px;
+  
+    }
 }
+
+
 @media (max-width: 768px) {
   .button-greeting-div {
     justify-content: space-around;
@@ -102,10 +118,11 @@
 
 
   .greeting-text-p {
-    font-size: 60px;
-    margin-right: 0px;
+    font-size: 30px;
     text-align: center;
     font-family:"cassette";
+    margin-top: 0px;
+    margin-left: 0px;
     
   }
   .greeting-main {

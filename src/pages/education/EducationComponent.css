@@ -11,6 +11,41 @@
 }
 
 
+#edu_block {
+  font-family: cassette;
+  font-size: 20px;
+  margin: 0.25em 0;
+  padding: 0.35em 40px;
+  line-height: 1.45;
+  position: relative;
+  color:#e4405f;
+
+  }
+  
+  #edu_block:before {
+  font-family: Georgia, serif;
+  display: block;
+  content: "\201C";
+  font-size: 40px;
+  position: absolute;
+  left: 20px;
+  top: -20px;
+  }
+
+  
+  #edu_block cite {
+  font-size: 20px;
+  display: block;
+  margin-top: 5px;
+  color:#e4405f;
+
+  }
+
+  #edu_block cite:before {
+    content: "\2014 \2009";
+    }
+
+
 .education-main {
   width: 100vw;
 }
@@ -75,9 +110,41 @@ color: #868e96;
     font-size: 25px;
   }
   
-    
-    
+  #edu_block {
+    font-family: cassette;
+    font-size: 16px;
+    margin: 0.25em 0;
+    padding: 0.35em 40px;
+    line-height: 1.45;
+    position: relative;
+    color:#e4405f;
 
+    }
+    
+    #edu_block:before {
+    font-family: Georgia, serif;
+    display: block;
+    content: "\201C";
+    font-size: 30px;
+    position: absolute;
+    left: 35px;
+    top: -15px;
+    }
+  
+    
+    #edu_block cite {
+    font-size: 16px;
+    display: block;
+    margin-top: 5px;
+    color:#e4405f;
+
+    }
+  
+    #edu_block cite:before {
+      content: "\2014 \2009";
+      }
+  
+  
 
 }
 
@@ -97,36 +164,45 @@ color: #868e96;
     flex-direction: column;
   }
 
+  #edu_block {
+    font-family: cassette;
+    font-size: 16px;
+    margin: 0.25em 0;
+    padding: 0.35em 40px;
+    line-height: 1.45;
+    position: relative;
+    color:#e4405f;
+
+    }
+    
+    #edu_block:before {
+    font-family: Georgia, serif;
+    display: block;
+    content: "\201C";
+    font-size: 30px;
+    position: absolute;
+    left: 25px;
+    top: -15px;
+    }
+  
+    
+    #edu_block cite {
+    font-size: 16px;
+    display: block;
+    margin-top: 5px;
+    color:#e4405f;
+
+    }
+  
+    #edu_block cite:before {
+      content: "\2014 \2009";
+      }
+  
+
+
+  
+
 }
 
 
 
-#edu_block {
-  font-family: Georgia, serif;
-  font-size: 18px;
-  font-style: italic;
-  margin: 0.25em 0;
-  padding: 0.35em 40px;
-  line-height: 1.45;
-  position: relative;
-  }
-  
-  #edu_block:before {
-  display: block;
-  content: "\201C";
-  font-size: 60px;
-  position: absolute;
-  left: 20px;
-  top: -20px;
-  }
-
-  
-  #edu_block cite {
-  font-size: 14px;
-  display: block;
-  margin-top: 5px;
-  }
-
-  #edu_block cite:before {
-    content: "\2014 \2009";
-    }

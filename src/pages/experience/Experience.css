@@ -10,6 +10,40 @@
   src: url("../../components/header/BeautyDemo.ttf") format("truetype");
 }
 
+#exp_block {
+  font-family: cassette;
+  font-size: 20px;
+  margin: 0.25em 0;
+  padding: 0.35em 40px;
+  line-height: 1.45;
+  position: relative;
+  color:#e4405f;
+  }
+  
+  #exp_block:before {
+  font-family: Georgia, serif;
+  display: block;
+  content: "\201C";
+  font-size: 40px;
+  position: absolute;
+  left: 120px;
+  top: -15px;
+  }
+
+  
+  #exp_block cite {
+  font-size: 20px;
+  display: block;
+  margin-top: 5px;
+  color:#e4405f;
+  }
+
+  #exp_block cite:before {
+    content: "\2014 \2009";
+    }
+
+
+
 .experience-main {
   width: 100vw;
 }
@@ -48,6 +82,7 @@
   line-height: 1.1;
   text-align: center;
   margin-top: 80px;
+
 }
 
 .experience-heading-sub-text {
@@ -65,7 +100,11 @@
   color: #868e96;
 }
 
-@media (max-width: 1380px) {
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {  
+    
   .experience-heading-text {
     font-size: 50px;
     margin-top: 80px;
@@ -73,9 +112,81 @@
   .experience-heading-sub-text {
     font-size: 25px;
   }
+
+  #exp_block {
+    font-family: cassette;
+    font-size: 16px;
+    margin: 0.25em 0;
+    padding: 0.35em 40px;
+    line-height: 1.45;
+    position: relative;
+    color:#e4405f;
+
+    }
+    
+    #exp_block:before {
+    font-family: Georgia, serif;
+    display: block;
+    content: "\201C";
+    font-size: 40px;
+    position: absolute;
+    left: 40px;
+    top: -15px;
+    }
+  
+    
+    #exp_block cite {
+    font-size: 14px;
+    display: block;
+    margin-top: 5px;
+    color:#e4405f;
+
+    }
+  
+    #exp_block cite:before {
+      content: "\2014 \2009";
+      }
+
+  
 }
 
 @media (max-width: 768px) {
+  #exp_block {
+    font-family: cassette;
+    font-size: 16px;
+    font-style: italic;
+    margin: 0.25em 0;
+    padding: 0.35em 40px;
+    line-height: 1.45;
+    position: relative;
+    color:#e4405f;
+
+    }
+    
+    #exp_block:before {
+    font-family: Georgia, serif;
+    display: block;
+    content: "\201C";
+    font-size: 40px;
+    position: absolute;
+    left: 30px;
+    top: -15px;
+    }
+  
+    
+    #exp_block cite {
+    font-size: 14px;
+    display: block;
+    margin-top: 5px;
+    color:#e4405f;
+
+    }
+  
+    #exp_block cite:before {
+      content: "\2014 \2009";
+      }
+
+  
   .experience-heading-text {
     font-size: 30px;
     margin-top: 20px;
@@ -89,8 +200,23 @@
     flex-direction: column;
   }
 
+  .textcs{
 
+    position: relative;
+    color: #f5f5f5;
+    text-align:center;
+   text-justify: inter-word;
+    margin: 1.5em 10px;
+    padding: 0.5em 10px;
+    font-family: Consolas,'Courier New',Monaco,Courier,monospace;
+    line-height: 18px;
+    overflow: scroll;
+  }
+  
 
+  #heading{
+    font-family: cassette;
+  }
   
 
 }
@@ -123,7 +249,9 @@
     background: #000000;
     color: coral;
 }
-
+#heading{
+  font-family: cassette;
+}
 
 @media only screen and (max-width: 600px) {
   .carousel-root {
@@ -139,7 +267,6 @@
     text-align:left;
     margin: 1.5em 10px;
     padding: 0.5em 10px;
-    padding-left: 50px;
     height: 300px;
     width:300px;
     font-family: Consolas,'Courier New',Monaco,Courier,monospace;
@@ -150,42 +277,12 @@
   #heading{
     font-family: cassette;
   }
-  /* blockquote {
-    font-family: Georgia, serif;
-    font-size: 18px;
-    font-style: italic;
-    margin: 0.25em 0;
-    padding: 0.35em 40px;
-    line-height: 1.45;
-    position: relative;
-    color:cornsilk;
-    }
-    
-    blockquote:before {
-    display: block;
-    content: "\201C";
-    font-size: 60px;
-    position: absolute;
-    left: 20px;
-    top: -20px;
-    color: cornsilk;
-    }
-    
-    blockquote cite {
-    color: cornsilk;
-    font-size: 14px;
-    display: block;
-    margin-top: 5px;
-    }
-     
-    blockquote cite:before {
-    content: "\2014 \2009";
-    } */
 
 
+  
+
+  
 }
-
-
 
 
 
@@ -194,52 +291,15 @@
 
   position: relative;
   color: #f5f5f5;
-  text-align:left;
+  text-align:center;
  text-justify: inter-word;
   margin: 1.5em 10px;
   padding: 0.5em 10px;
 
-  padding-left: 50px;
   font-family: Consolas,'Courier New',Monaco,Courier,monospace;
-  /*font-family:aerial;*/
   line-height: 18px;
   overflow: scroll;
-  /*quotes: "\201C""\201D""\2018""\2019";*/
 }
-
-
-#exp_block {
-  font-family: Georgia, serif;
-  font-size: 18px;
-  font-style: italic;
-  margin: 0.25em 0;
-  padding: 0.35em 40px;
-  line-height: 1.45;
-  position: relative;
-  }
-  
-  #exp_block:before {
-  display: block;
-  content: "\201C";
-  font-size: 60px;
-  position: absolute;
-  left: 50px;
-  top: -20px;
-  }
-
-  
-  #exp_block cite {
-  font-size: 14px;
-  display: block;
-  margin-top: 5px;
-  }
-   
-  #exp_block cite:before {
-  content: "\2014 \2009";
-  }
-
-
-
 
 
 

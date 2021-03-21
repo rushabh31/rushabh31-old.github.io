@@ -400,47 +400,27 @@ ${({ theme }) => css`
       }
 
       .experience-card {
-        width: 100%;
-        margin-bottom: 20px;
-        border-radius:10px;
-        display: flex;
-        flex-direction:row;
         background-color:${theme.colors.exp_card_bgcolor};
     }
-      .experience-accord {
-        margin: 0 auto;
-        width: 80%;
-        background: #1569a8;
-          
-      }
+    
 
       .experience-accord .b4 {
-          -webkit-box-pack: justify;
-          justify-content: space-between;
           background-color: ${theme.colors.accordian_background};
           color: ${theme.colors.accordian_text_color};
+          font-family: 'cassette';
       }
 
       .experience-accord .ba {
-          flex-shrink: 0;
           color: ${theme.colors.accordian_text_color};
+          font-family: 'cassette';
       }
 
       .experience-accord .bu {
-          max-height: 100%;
           background-color: ${theme.colors.accordian_background_2};
           color: ${theme.colors.accordian_p_text_color};
+          font-family: 'cassette';
       }
 
-      .experience-card-duration {
-          font-family: "Google Sans Regular";
-          margin-top: 10px;
-          margin-bottom: 2px;
-          margin-left: 0px;
-          margin-right: 0px;
-          text-align: right;
-          color: #868e96;
-      }
 
       .accord-panel {
           font-family: 'Google Sans Regular';
@@ -449,52 +429,24 @@ ${({ theme }) => css`
       @media (max-width: 768px) {
           .experience-accord{
               margin: 20px;
+              margin-left: 45px;
           }
       }
 
 
-      .greeting-text-p {
-        font-size: 30px;
-        line-height: 40px;
-        margin-right: 40px;
-        color: ${theme.colors.greetings_p_color}
-        font-family:"cassette";
-      }
+      // .greeting-text-p {
+      //   font-size: 30px;
+      //   line-height: 40px;
+      //   color: ${theme.colors.greetings_p_color}
+      //   font-family:"cassette";
+      // }
       .subTitle {
         color: ${theme.colors.greetings_p_color}
       }
 
-      #edu_block {
-        font-family: Georgia, serif;
-        font-size: 18px;
-        font-style: italic;
-        margin: 0.25em 0;
-        padding: 0.35em 40px;
-        line-height: 1.45;
-        position: relative;
-        color:${theme.colors.education_quote_color}
-        }
-        
-        #edu_block:before {
-        display: block;
-        content: "\201C";
-        font-size: 60px;
-        position: absolute;
-        left: 20px;
-        top: -20px;
-        color: ${theme.colors.education_quote_color};
-        }
-        
-        #edu_block cite {
-        color: ${theme.colors.education_quote_color};
-        font-size: 14px;
-        display: block;
-        margin-top: 5px;
-        }
+      
          
-        #edu_block cite:before {
-        content: "\2014 \2009";
-        }
+      
 
         .carousel .slide {
           min-width: 100%;

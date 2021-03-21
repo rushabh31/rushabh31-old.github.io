@@ -21,6 +21,13 @@ export default function Greeting() {
       <div className="greet-main" id="greeting">
 
         <div className="greeting-main">
+          
+          <div className="greeting-image-div">
+            <img
+              alt="Rushabh sitting on table"
+              src={themeMode === "lightTheme" ? require("../../assests/images/graphic_chart.svg") : require("../../assests/images/graphic_chart_dark.svg")} 
+            ></img>
+          </div>
           <div className="greeting-text-div">
             <div>
 
@@ -35,12 +42,6 @@ export default function Greeting() {
             </div> */}
             </div>
 
-          </div>
-          <div className="greeting-image-div">
-            <img
-              alt="Rushabh sitting on table"
-              src={themeMode === "lightTheme" ? require("../../assests/images/graphic_chart.svg") : require("../../assests/images/graphic_chart_dark.svg")} 
-            ></img>
           </div>
 
         </div>

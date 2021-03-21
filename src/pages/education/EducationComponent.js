@@ -28,7 +28,7 @@ class Education extends Component {
                 <h1 className="heading-text">Education</h1>
 
 
-<h3 style={{fontSize: "30px" ,fontFamily: "Google Sans Regular", textAlign: "center", marginBottom: "10px"}}> Basic Education & Skills </h3>
+<h3 style={{fontSize: "30px" ,fontFamily: "cassette", textAlign: "center", marginBottom: "10px"}}> Basic Education & Skills </h3>
                 <h3 className="heading-sub-text">
 
                 <blockquote id="edu_block">
