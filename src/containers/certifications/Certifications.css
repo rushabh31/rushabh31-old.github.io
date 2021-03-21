@@ -1,7 +1,13 @@
+@font-face{
+    font-family: "cassette";
+    font-size: 40px;
+    src: url("../../components/header/Chasing.ttf") format("truetype");
+  }
+
 .certs-header {
     font-size: 40px;
     line-height: 1.1;
-    font-family: "Google Sans Regular";
+    font-family: "cassette";
     text-align: center;
   }
   

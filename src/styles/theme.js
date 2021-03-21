@@ -21,6 +21,7 @@ export default {
       education_quote_color:"black",
       exp_card_bgcolor:"#92d5fbc4",
       carousal_bgcolor:"black",
+      carousal_color:"cornsilk",
       main_btn_color: "#277aa9"
       
 
@@ -48,7 +49,8 @@ export default {
       greetings_p_color: "cornsilk",
       education_quote_color:"cornsilk",
       exp_card_bgcolor:"rgb(208 230 167 / 88%)",
-      carousal_bgcolor:"#0b1a2e",
+      carousal_bgcolor:"#f0ece2",
+      carousal_color:"#0b1a2e",
       main_btn_color: "#a8c66b"
 
 

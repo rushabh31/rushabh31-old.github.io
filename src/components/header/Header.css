@@ -1,5 +1,17 @@
 /* header */
 
+@font-face{
+  font-family: "cassette";
+  font-size: 40px;
+  src: url("../../components/header/Chasing.ttf") format("truetype");
+}
+
+@font-face{
+  font-family: "BeautyDemo";
+  font-size: 40px;
+  src: url("../../components/header/BeautyDemo.ttf") format("truetype");
+}
+
 .header {
   display: block;
   max-width: 90%;
@@ -74,20 +86,20 @@
 }
 
 .header li a:after {
-  font-family:"Agustina Regular";
+  font-family:"cassette";
   content: "/>";
   transform: translateX(-10px);
   font-weight:normal;
-  font-size: 35px;
+  font-size: 40px;
   padding-left: -10px;
 
 }
 
 .header li a:before {
-  font-family:"Agustina Regular";
+  font-family:"cassette";
   content: "<";
   font-weight:normal;
-  font-size: 35px;
+  font-size: 40px;
   transform: translateX(-10px);
 
 }
@@ -110,10 +122,10 @@
 
 .menu {
   /*font-family: "Google Sans Regular";*/
-  font-family: "BeautyDemo";
+  font-family: "cassette";
   font-weight:normal;
   padding: 0 0px;
-  font-size: 35px;
+  font-size: 27px;
 }
 
 .header .menu {

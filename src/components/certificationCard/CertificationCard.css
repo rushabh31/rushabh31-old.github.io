@@ -1,3 +1,10 @@
+
+@font-face{
+  font-family: "cassette";
+  font-size: 40px;
+  src: url("../../components/header/Chasing.ttf") format("truetype");
+}
+
 .cert-card {
     width: 30%;
     display: inline-block;
@@ -6,7 +13,6 @@
     text-align: center;
     border: 1px solid #d9dbdf;
     border-radius: 5px;
-    box-shadow: 15px 15px 15px #d9dbdf;
     margin-bottom: 30px;
     flex: 0 0 30%;
     background-color: #f9f5e9;
@@ -28,13 +34,14 @@
 }
 
 .cert-body-title {
-    font-family: "Google Sans Regular";
+    font-family: "cassette";
     font-size: 20px;
     margin: 10px;
+    color:black;
 }
 
 .cert-body-subtitle {
-    font-family: "Google Sans Regular";
+    font-family: "cassette";
     font-size: 18px;
     color: #808080;
     margin:10px;
@@ -93,9 +100,9 @@
 }
 
 .content-details h3{
-  color: #fff;
+  color: rgb(0, 0, 0);
   font-weight: 500;
-  font-family: "Google Sans Regular";
+  font-family: "cassette";
   letter-spacing: 0.15em;
   margin-bottom: 0.5em;
   text-transform: uppercase;

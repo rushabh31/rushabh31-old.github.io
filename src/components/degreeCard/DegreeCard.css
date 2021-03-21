@@ -23,7 +23,7 @@
     font-family : "cassette";
     font-size: 23px;
 
-    color: #ffffff;
+    color:#4d4545;
 }
 
 .card-subtitle {
@@ -39,10 +39,9 @@
     height: auto;
     border-radius: 50%;
     padding: 10px;
-    border: 1px solid #d9dbdf;
     background-color: #ffffff;
     /* background: transparent; */
-    box-shadow: 5px 5px 5px #d9dbdf;
+  
 }
 
 .body-header {
@@ -57,6 +56,7 @@
 .body-header-title {
     align-items: flex-start;
     width: 80%;
+    color:black;
 }
 
 .body-header-duration {
@@ -88,13 +88,15 @@
 
 .card-body {
     /* background-color: #00FF00; */
-    border-bottom: 1px solid #d9dbdf;
+    /* border-bottom: 1px solid #d9dbdf;
     border-left: 1px solid #d9dbdf;
-    border-right: 1px solid #d9dbdf;
+    border-right: 1px solid #d9dbdf; */
     border-radius: 7px;
     width: 90%;
+    font-weight:20px;
     margin: 10px;
-    box-shadow: 5px 5px 5px #d9dbdf;
+    color:black;
+    /* box-shadow: 5px 5px 5px #d9dbdf; */
 }
 
 .visit-btn{
@@ -132,6 +134,7 @@
 
     .body-header-title {
         width: 100%;
+        color:#000000;
     }
 
     .body-header-duration {
@@ -147,8 +150,8 @@
     }
 
     .card-img {
-        width: 200px;
-    }
+        width: 120px;
+           }
 
     .card-body{
         width: 100%;
