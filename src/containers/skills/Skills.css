@@ -1,3 +1,9 @@
+@font-face{
+  font-family: "cassette";
+  font-size: 40px;
+  src: url("../../components/header/Chasing.ttf") format("truetype");
+}
+
 .skills-main-div {
   display: flex;
 }
@@ -46,17 +52,24 @@
 .skills-header {
   font-size: 50px;
   line-height: 1.1;
-  font-family: "Google Sans Regular";
+  font-family: "cassette";
   text-align: center;
+  margin-left: 70px;
 }
 
 .skills-text {
-  font-size: 20px;
+  font-size: 25px;
+  text-align: center;
+  margin-left:10%;
+  width:80%;
+  font-family: "cassette";
+
+
 }
 
 .skills-text-div {
   margin-left: 50px;
-  font-family: "Google Sans Regular";
+  font-family: "cassette";
 }
 
 
@@ -66,16 +79,21 @@
 }
 
 .skills-image-div > img {
-  max-width: 100%;
+  max-width: 40%;
   height: auto;
-  margin-top: 100px;
+  margin-top: 50px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
 }
 
 .skills-heading {
   font-size: 40px;
   align-items: center;
   font-weight: 400;
-  font-family: "Google Sans Regular";
+  font-family: "cassette";
+  color:#e4405f;
 }
 
 /* Media Query */
@@ -85,6 +103,16 @@
   }
   .skills-header {
     font-size: 50px;
+    align-items: center;
+    margin-left: 70px;
+
+  }
+  .skills-text {
+    font-size: 20px;
+    text-align: center;
+    margin-left:0%;
+    width:100%;
+  
   }
   /* .skills-image-div > img {
     margin-top: 0px;
@@ -97,6 +125,8 @@
   }
   .skills-header {
     font-size: 30px;
+    margin-left: 30px;
+
   }
   .greeting-text-p {
     font-size: 16px;
@@ -111,6 +141,10 @@
   }
   .skills-text {
     font-size: 16px;
+    text-align: center;
+    margin-left:0%;
+    width:100%;
+
   }
   .skills-text-subtitle {
     font-size: 16px;

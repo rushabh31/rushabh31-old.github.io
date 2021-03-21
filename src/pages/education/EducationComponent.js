@@ -7,10 +7,14 @@ import CompetitiveSites from '../../components/competitiveSites/CompetitiveSites
 import {competitiveSites}  from "../../portfolio";
 import "./EducationComponent.css";
 import { Fade } from "react-reveal";
-import Particles from 'react-particles-js';
+import { AppContext } from "../../theme/AppProvider";
+import { useContext } from "react";
+
 
 class Education extends Component {
+  
   render() {
+    const themeMode = this.props.themeMode;
     return (
       <div className="education-main">
         <Header />
@@ -18,7 +22,7 @@ class Education extends Component {
           <Fade bottom duration={1000} distance="40px">
             <div className="heading-div">
               <div className="heading-img-div">
-                <img src={require("../../assests/images/education.svg")} alt="" />
+                <img src= {themeMode === "lightTheme" ? require("../../assests/images/education.svg"): require("../../assests/images/education_dark.svg")} alt="" />
               </div>
               <div className="heading-text-div">
                 <h1 className="heading-text">Education</h1>
@@ -27,9 +31,9 @@ class Education extends Component {
 <h3 style={{fontSize: "30px" ,fontFamily: "Google Sans Regular", textAlign: "center", marginBottom: "10px"}}> Basic Education & Skills </h3>
                 <h3 className="heading-sub-text">
 
-                  <text style={{fontSize:'80px',position:'relative',right:'-10px',bottom:'-35px' }}> &#8220; </text>
-
-                  Live as if you were to die tomorrow. Learn as if you were to live forever. - Mahatma Gandhi
+                <blockquote id="edu_block">
+                Live as if you were to die tomorrow. Learn as if you were to live forever.<cite>Mahatma Gandhi</cite>
+                </blockquote>
                 </h3>
                 <CompetitiveSites logos={competitiveSites.competitiveSites} />
               </div>
@@ -46,4 +50,10 @@ class Education extends Component {
   }
 }
 
-export default Education;
+
+export default () => {
+  const {themeMode } = useContext(AppContext);
+  return (
+      <Education themeMode={themeMode} />
+  )
+}

@@ -1,3 +1,17 @@
+@font-face{
+    font-family: "cassette";
+    font-size: 40px;
+    src: url("../../components/header/Chasing.ttf") format("truetype");
+  }
+  
+  @font-face{
+    font-family: "BeautyDemo";
+    font-size: 40px;
+    src: url("../../components/header/BeautyDemo.ttf") format("truetype");
+  }
+
+
+
 .degree-card {
   display: flex;
   width: 100%;
@@ -6,14 +20,14 @@
 }
 
 .card-title {
-    font-family : "Google Sans Medium";
+    font-family : "cassette";
     font-size: 23px;
 
-    color: #d6c5c5;
+    color: #ffffff;
 }
 
 .card-subtitle {
-    font-family: "Google Sans Medium";
+    font-family: "cassette";
     font-size: 18px;
     color: #d6c5c5;
     margin-top: 7px;
@@ -26,7 +40,7 @@
     border-radius: 50%;
     padding: 10px;
     border: 1px solid #d9dbdf;
-    /* background-color: #6c63ff; */
+    background-color: #ffffff;
     /* background: transparent; */
     box-shadow: 5px 5px 5px #d9dbdf;
 }
@@ -35,8 +49,7 @@
     max-width: inherit;
     display: flex;
     /* width: 100%; */
-    background-color: #000000d6
-;
+    background-color: #000000d6;
     border-radius: 7px 7px 0px 0px;
     padding: 10px;
 }
@@ -50,7 +63,7 @@
     width: 20%;
 }
 .duration {
-    font-family: "Google Sans Regular";
+    font-family: "cassette";
     font-size: 16px;
     color: #d6c5c5;
     padding-right:10px;
@@ -70,7 +83,7 @@
 .content-list {
     padding-left: 10px;
     padding-right: 10px;
-    font-family: "Google Sans Regular";
+    font-family: "cassette";
 }
 
 .card-body {
@@ -101,7 +114,7 @@
 .btn {
     margin: 0px;
     padding: 0px;
-    font-family: "Google Sans Regular";
+    font-family: "cassette";
     color: #000000;
 }
 

@@ -2,21 +2,22 @@ import React, { Component } from "react";
 import Header from "../../components/header/Header";
 import Footer from "../../components/footer/Footer";
 import ExperienceAccordion from '../../containers/experienceAccordion/ExperienceAccordion.js';
-import ReactDOM from 'react-dom';
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from 'react-responsive-carousel';
-import Particles from 'react-particles-js';
 
 // import experience from '../../shared/experience_data.json';
 import "./Experience.css";
 import { Fade } from "react-reveal";
+
+import { AppContext } from "../../theme/AppProvider";
+import { useContext } from "react";
 
 const experience = {
 	title: "Experience",
 	subtitle: "Work, Internships and Publications",
 	quote_symbol: "\u201C",
 	description:
-		"The only source of knowledge is experience. - Albert Einstein",
+		"The only source of knowledge is experience.",
 	header_image_path: "experience.svg",
 	sections: [
 		{
@@ -242,6 +243,8 @@ const experience = {
 
 class Experience extends Component {
 	render() {
+		const themeMode = this.props.themeMode;
+
 		return (
 			<div className="experience-main">
 				<Header />
@@ -250,19 +253,19 @@ class Experience extends Component {
 						<div className="experience-heading-div">
 							<div className="experience-heading-img-div">
 								<img
-									src={require(`../../assests/images/${experience["header_image_path"]}`)}
+									src={themeMode === "lightTheme" ? require(`../../assests/images/experience.svg`) : require(`../../assests/images/experience-dark.svg`)}
 								    alt=""
 								/>
 							</div>
 							<div className="experience-heading-text-div">
 								<h1 className="experience-heading-text">{experience.title}</h1>
-								<h3 className="experience-heading-sub-text">
-									{experience["subtitle"]}
+								<h3 className="experience-heading-sub-text">{experience["subtitle"]}
 								</h3>
-								<h2 className="experience-header-detail-text subTitle">
-								<text style={{fontSize:'80px',position:'relative',right:'-10px',bottom:'-35px' }}>{experience.quote_symbol} </text>
-
-									{experience["description"]}  
+								<h2 className="heading-sub-text">
+								<blockquote id="exp_block">
+								{experience["description"]}  
+								<cite>Albert Einstein</cite>
+								</blockquote>
 								</h2>
 
 							</div>
@@ -273,7 +276,7 @@ class Experience extends Component {
 				<ExperienceAccordion sections={experience["sections"]} />
 				<br/ >
         <br/><br/>
-				<div><center><h2> LinkedIn Recommendations</h2> <br/><br/>
+				<div><center><h2 id="heading"> LinkedIn Recommendations</h2> <br/><br/>
 				<Carousel autoPlay = {true} showThumbs={false} showStatus={false} useKeyboardArrows centerSlidePercentage={50}>
 				     {/*Natalie's Recommendation*/}
 								<div key="content-5" className="my-slide-content">
@@ -281,14 +284,14 @@ class Experience extends Component {
 										<center>
 										<a href="https://www.linkedin.com/in/natalievarrialekasana/">
 										<div class="circular--portrait">
-										<img src={require(`../../assests/images/natalie_thumbnail.png`)} />
+										<img alt="" src={require(`../../assests/images/natalie_thumbnail.png`)} />
 						        </div>
 										</a>
 										</center> <br/><br/>
 										<h4 style={{color:'white',marginTop:'-30px', marginBottom:'0px'}}>Natalie Kasana</h4>
 										<i><h5 style={{color:'white',marginTop:'-1px',marginBottom:'18px'}}>Data Scientist </h5></i>
 										<i><h5 style={{color:'white',marginTop:'-20px'}}>Visiting Nurse Service of New York</h5></i>
-										<text style={{color:'#1789ef',fontFamily:'aerial',fontSize:'120px',position:'relative',right:'-10px',bottom:'-35px' }}>{experience.quote_symbol} </text>
+										<text style={{color:themeMode === "lightTheme" ? '#1789ef': '#97b260',fontFamily:'aerial',fontSize:'120px',position:'relative',right:'-10px',bottom:'-35px' }}>{experience.quote_symbol} </text>
 
 										<blockquote className='textcs'> Rushabh is one of the best colleagues I’ve ever worked with. He is efficient, creative, and very technically strong. He always tries to find a solution to complex problems and never says something can’t be done. He would be a great asset to any team.</blockquote>
 
@@ -300,14 +303,14 @@ class Experience extends Component {
 	 										<center>
 											<a href="https://www.linkedin.com/in/oude-gao-338784104/">
 											<div class="circular--portrait">
-	 										<img src={require(`../../assests/images/oude_thumbnail.png`)} />
+	 										<img alt="" src={require(`../../assests/images/oude_thumbnail.png`)} />
 	 						        </div>
 											</a>
 											</center> <br/><br/>
 	 										<h4 style={{color:'white',marginTop:'-30px', marginBottom:'0px'}}>Oude Gao</h4>
 	 										<i><h5 style={{color:'white',marginTop:'-1px',marginBottom:'18px'}}>Sr. VBP Operational Analyst </h5></i>
 	 										<i><h5 style={{color:'white',marginTop:'-20px'}}>Visiting Nurse Service of New York</h5></i>
-											<text style={{color:'#1789ef',fontFamily:'aerial',fontSize:'120px',position:'relative',right:'-10px',bottom:'-35px' }}>{experience.quote_symbol} </text>
+											<text style={{color:themeMode === "lightTheme" ? '#1789ef': '#97b260',fontFamily:'aerial',fontSize:'120px',position:'relative',right:'-10px',bottom:'-35px' }}>{experience.quote_symbol} </text>
 
 	 										<blockquote className='textcs'> Rushabh was a great colleague of mine and a valuable asset to the team at VNSNY. As a data scientist, he became the true pioneer and created brilliant solutions to roadblocks that we were not able to break through in the field of machine learning and predictive modeling in production. His knowledge from his master/PhD study helped me personally on questions I encountered in my work, as well as the way I think about the technical side of my tasks. He's a go-getter, a person that never lets you down, and a genuine friend. I truly believe he still has great potential unrealized and would recommend him as a great fit for a lead data scientist role.</blockquote>
 
@@ -318,7 +321,7 @@ class Experience extends Component {
  	 										<center>
 											<a href="https://www.linkedin.com/in/richard-dewald-7703904/">
 											<div class="circular--portrait">
-										  <img src={require(`../../assests/images/richard_thumbnail.png`)} />
+										  <img alt="" src={require(`../../assests/images/richard_thumbnail.png`)} />
  	 						        </div>
 											</a>
 
@@ -326,7 +329,7 @@ class Experience extends Component {
  	 										<h4 style={{color:'white',marginTop:'-30px', marginBottom:'0px'}}>Richard Dewald</h4>
  	 										<i><h5 style={{color:'white',marginTop:'-1px',marginBottom:'18px'}}>Senior Analyst </h5></i>
  	 										<i><h5 style={{color:'white',marginTop:'-20px'}}>Visiting Nurse Service of New York</h5></i>
-											<text style={{color:'#1789ef',fontFamily:'aerial',fontSize:'120px',position:'relative',right:'-10px',bottom:'-35px' }}>{experience.quote_symbol} </text>
+											<text style={{color:themeMode === "lightTheme" ? '#1789ef': '#97b260',fontFamily:'aerial',fontSize:'120px',position:'relative',right:'-10px',bottom:'-35px' }}>{experience.quote_symbol} </text>
 
 											<blockquote className='textcs'>Rushabh Patel is far and away one of the most talented analysts and programmers I have had the pleasure of working with in my career. Not only does he have significant skills and training, he brings a curiosity, dedication to self-instruction, and ease with collaboration that is every bit as valuable, if not more than, his raw skills, extensive training, and meaningful accomplishments. He made me better at my job when I worked with him. He made my colleagues better. He made our organization function better. He left work with us which represents a first in my company's 125+ year history.
 
@@ -341,7 +344,7 @@ When he moved on from our organization I was ambivalent. On the one hand, I was 
  	 										<center>
 											<a href="https://www.linkedin.com/in/soy-chen-40a16932/">
 											<div class="circular--portrait">
-										  <img src={require(`../../assests/images/soy_thumbnail.png`)} />
+										  <img alt=""  src={require(`../../assests/images/soy_thumbnail.png`)} />
  	 						        </div>
 											</a>
 
@@ -349,7 +352,7 @@ When he moved on from our organization I was ambivalent. On the one hand, I was 
  	 										<h4 style={{color:'white',marginTop:'-30px', marginBottom:'0px'}}>Soy Chen</h4>
  	 										<i><h5 style={{color:'white',marginTop:'-1px',marginBottom:'18px'}}>Director of Data Science </h5></i>
  	 										<i><h5 style={{color:'white',marginTop:'-20px'}}>Jvion Inc.</h5></i>
-											<text style={{color:'#1789ef',fontFamily:'aerial',fontSize:'120px',position:'relative',right:'-10px',bottom:'-35px' }}>{experience.quote_symbol} </text>
+											<text style={{color:themeMode === "lightTheme" ? '#1789ef': '#97b260',fontFamily:'aerial',fontSize:'120px',position:'relative',right:'-10px',bottom:'-35px' }}>{experience.quote_symbol} </text>
 
 											<blockquote className='textcs'>I highly valued Rushabh's contribution and energy during his time on our Data Science team. He approached challenges with enthusiasm and always brought back interesting insights to share with the rest of the team. His energy compelled and excited us to incorporate new ideas.
 I could always count on Rushabh. He is thorough yet thoughtful. Rushabh knows how to navigate tricky team dynamics, negotiate for resources, and prioritize complex timelines. I have countless team successes directly attributed to him.
@@ -363,7 +366,7 @@ Rushabh would no doubt be a great asset on any Data Science team out there and I
 									 		 <center>
 									 		 <a href="https://www.linkedin.com/in/shengqiang-chen-879337a7/">
 									 		 <div class="circular--portrait">
-									 		 <img src={require(`../../assests/images/jonas_thumbnail.png`)} />
+									 		 <img alt="" src={require(`../../assests/images/jonas_thumbnail.png`)} />
 									 		 </div>
 									 		 </a>
 
@@ -371,7 +374,7 @@ Rushabh would no doubt be a great asset on any Data Science team out there and I
 									 		 <h4 style={{color:'white',marginTop:'-30px', marginBottom:'0px'}}>Shengqiang Chen</h4>
 									 		 <i><h5 style={{color:'white',marginTop:'-1px',marginBottom:'18px'}}>Senior Data Scientist </h5></i>
 									 		 <i><h5 style={{color:'white',marginTop:'-20px'}}>Jvion Inc.</h5></i>
-											 <text style={{color:'#1789ef',fontFamily:'aerial',fontSize:'120px',position:'relative',right:'-10px',bottom:'-35px' }}>{experience.quote_symbol} </text>
+											 <text style={{color:themeMode === "lightTheme" ? '#1789ef': '#97b260',fontFamily:'aerial',fontSize:'120px',position:'relative',right:'-10px',bottom:'-35px' }}>{experience.quote_symbol} </text>
 
 											 <blockquote className='textcs'>It is my pleasure to write this recommendation, as it was great to work with Rushabh in the same team. He is the most dedicated and resourceful professional in accomplishing the most challenging of tasks beyond your expectations. He possesses a deep understanding of analytics, shows excellent attention to detail, and has a great sense of humor. I and my colleagues are always impressed with his positive "can do" attitude and we are confident in all his professional abilities on any project.</blockquote>
 									 	</div>
@@ -382,7 +385,7 @@ Rushabh would no doubt be a great asset on any Data Science team out there and I
  	 	 										<center>
  												<a href="https://www.linkedin.com/in/suryavadlamani/">
  												<div class="circular--portrait">
- 											  <img src={require(`../../assests/images/surya_thumbnail.png`)} />
+ 											  <img alt="" src={require(`../../assests/images/surya_thumbnail.png`)} />
  	 	 						        </div>
  												</a>
 
@@ -390,7 +393,7 @@ Rushabh would no doubt be a great asset on any Data Science team out there and I
  	 	 										<h4 style={{color:'white',marginTop:'-30px', marginBottom:'0px'}}>Surya Vadlamani</h4>
  	 	 										<i><h5 style={{color:'white',marginTop:'-1px',marginBottom:'18px'}}>Chief Data Officer </h5></i>
  	 	 										<i><h5 style={{color:'white',marginTop:'-20px'}}>HighRadius</h5></i>
-												<text style={{color:'#1789ef',fontFamily:'aerial',fontSize:'120px',position:'relative',right:'-10px',bottom:'-35px' }}>{experience.quote_symbol} </text>
+												<text style={{color:themeMode === "lightTheme" ? '#1789ef': '#97b260',fontFamily:'aerial',fontSize:'120px',position:'relative',right:'-10px',bottom:'-35px' }}>{experience.quote_symbol} </text>
 
 												<blockquote className='textcs'>I have had the opportunity to work with Rushab for about 2 years when he was a data scientist at Jvion. In addition to possessing thorough skills and knowledge of AI and ML techniques and applying them to the models he built, he also thinks about the operational side of these models in supporting business in tracking daily and periodic performance variability of the models.
 In addition to the skills required to be a good data scientist, he is a solid team player and possesses a great attitude towards work which is often visible in times of uncertainty i.e aggressive timelines, changing requirements, not so clean input data etc.
@@ -404,7 +407,7 @@ He would be a great asset to any team.</blockquote>
 										 		<center>
 										 		<a href="https://www.linkedin.com/in/victor-cheng-wei/">
 										 		<div class="circular--portrait">
-										 		<img src={require(`../../assests/images/victor_thumbnail.png`)} />
+										 		<img alt="" src={require(`../../assests/images/victor_thumbnail.png`)} />
 										 		</div>
 										 		</a>
 
@@ -412,7 +415,7 @@ He would be a great asset to any team.</blockquote>
 										 		<h4 style={{color:'white',marginTop:'-30px', marginBottom:'0px'}}>Cheng Wei</h4>
 										 		<i><h5 style={{color:'white',marginTop:'-1px',marginBottom:'18px'}}>Data Scientist </h5></i>
 										 		<i><h5 style={{color:'white',marginTop:'-20px'}}>Catalina USA</h5></i>
-												<text style={{color:'#1789ef',fontFamily:'aerial',fontSize:'120px',position:'relative',right:'-10px',bottom:'-35px' }}>{experience.quote_symbol} </text>
+												<text style={{color:themeMode === "lightTheme" ? '#1789ef': '#97b260',fontFamily:'aerial',fontSize:'120px',position:'relative',right:'-10px',bottom:'-35px' }}>{experience.quote_symbol} </text>
 
 												<blockquote className='textcs'>Rushabh is one of the most amazing co-workers I've ever had. He has profound knowledge in data science and engineering. He is dedicated and he really owns what he does. From business insight, data engineering, machine learning to production, he successfully finished over dozens of project when we were working together at Jvion, followed by significantly positive results. Rushabh is always your go-to person whenever there is any problem on not just my code but also on the business process. He is definitely an invaluable employee to any company.</blockquote>
 										  </div>
@@ -425,7 +428,7 @@ He would be a great asset to any team.</blockquote>
 												 <center>
 												 <a href="https://www.linkedin.com/in/rahuljoshiitb/">
 												 <div class="circular--portrait">
-												 <img src={require(`../../assests/images/rahul_thumbnail.png`)} />
+												 <img alt="" src={require(`../../assests/images/rahul_thumbnail.png`)} />
 												 </div>
 												 </a>
 
@@ -433,7 +436,7 @@ He would be a great asset to any team.</blockquote>
 												 <h4 style={{color:'white',marginTop:'-30px', marginBottom:'0px'}}>Rahul Joshi Wei</h4>
 												 <i><h5 style={{color:'white',marginTop:'-1px',marginBottom:'18px'}}>Assistant Professor </h5></i>
 												 <i><h5 style={{color:'white',marginTop:'-20px'}}>Symbiosis Institute of Technology, Pune</h5></i>
-												 <text style={{color:'#1789ef',fontFamily:'aerial',fontSize:'120px',position:'relative',right:'-10px',bottom:'-35px' }}>{experience.quote_symbol} </text>
+												 <text style={{color:themeMode === "lightTheme" ? '#1789ef': '#97b260',fontFamily:'aerial',fontSize:'120px',position:'relative',right:'-10px',bottom:'-35px' }}>{experience.quote_symbol} </text>
 
 												 <blockquote className='textcs'>Rushabh is a bright student from his batch. He is quick learner and person with go getter attitude. Wherever he will work or go, I am sure he will be definitely create his creative work footprints over there. Best luck and a ton of wishes to your career journey - Rahul Joshi, Assistant Prof. Symbiosis Institute of Technology, Pune.</blockquote>
 											 </div>
@@ -446,7 +449,7 @@ He would be a great asset to any team.</blockquote>
 											 		<center>
 											 		<a href="https://www.linkedin.com/in/yanhui-guo-63025b39/">
 											 		<div class="circular--portrait">
-											 		<img src={require(`../../assests/images/yanhui_thumbnail.png`)} />
+											 		<img alt="" src={require(`../../assests/images/yanhui_thumbnail.png`)} />
 											 		</div>
 											 		</a>
 
@@ -454,7 +457,7 @@ He would be a great asset to any team.</blockquote>
 											 		<h4 style={{color:'white',marginTop:'-30px', marginBottom:'0px'}}>Yanhui Guo</h4>
 											 		<i><h5 style={{color:'white',marginTop:'-1px',marginBottom:'18px'}}>Assistant Professor </h5></i>
 											 		<i><h5 style={{color:'white',marginTop:'-20px'}}>University of Illinois</h5></i>
-													<text style={{color:'#1789ef',fontFamily:'aerial',fontSize:'120px',position:'relative',right:'-10px',bottom:'-35px' }}>{experience.quote_symbol} </text>
+													<text style={{color:themeMode === "lightTheme" ? '#1789ef': '#97b260',fontFamily:'aerial',fontSize:'120px',position:'relative',right:'-10px',bottom:'-35px' }}>{experience.quote_symbol} </text>
 
 													<blockquote className='textcs'>Rushabh joined me as a Research Assistant in January’16. I supervised him for project, “A Novel Computer Aided Diagnosis System for Breast Cancer Based on Reinforcement Sample Learning Strategy for Convolution Neural Network”, “Big Data Analytics on SIU hospital data” and “Edge detection using convolution neural network”. Rushabh presented outstanding commitment to his studies, and finished his degree within the top 1% of his class. He is a quite remarkable student with a strong research interest. Among his peers, he stood out by always being up-to-date with currently topical discussions even within niches of this research. The quality of his research work on project was compelling, and he managed to find beautifully simple solutions to very challenging problems. With his multicultural background and fluent proficiency of English, he could approach many scientific questions from different angles.
 It was a pleasure working with Rushabh for the past 1 year. Rushabh is a person with a strong analytical approach. He sees and can address everything from the big picture to the details. Rushabh is creative, energetic, solutions oriented and highly motivated with great communication skills. I strongly recommend him for any professional or research oriented job.
@@ -470,7 +473,7 @@ Dr. Yanhui Guo</blockquote>
 	 										 		<center>
 	 										 		<a href="https://www.linkedin.com/in/fran%C3%A7ois-giraud-carrier-a02749/">
 	 										 		<div class="circular--portrait">
-	 										 		<img src={require(`../../assests/images/fancois_thumbnail.png`)} />
+	 										 		<img alt="" src={require(`../../assests/images/fancois_thumbnail.png`)} />
 	 										 		</div>
 	 										 		</a>
 
@@ -478,7 +481,7 @@ Dr. Yanhui Guo</blockquote>
 	 										 		<h4 style={{color:'white',marginTop:'-30px', marginBottom:'0px'}}>François Giraud-Carrier</h4>
 	 										 		<i><h5 style={{color:'white',marginTop:'-1px',marginBottom:'18px'}}>Assistant Professor </h5></i>
 	 										 		<i><h5 style={{color:'white',marginTop:'-20px'}}>Weber State University</h5></i>
-													<text style={{color:'#1789ef',fontFamily:'aerial',fontSize:'120px',position:'relative',right:'-10px',bottom:'-35px' }}>{experience.quote_symbol} </text>
+													<text style={{color:themeMode === "lightTheme" ? '#1789ef': '#97b260',fontFamily:'aerial',fontSize:'120px',position:'relative',right:'-10px',bottom:'-35px' }}>{experience.quote_symbol} </text>
 
 													<blockquote className='textcs'>I met Rushabh in the spring of 2016 while he was a master's student in computer science at UIS. At the time, two colleagues and I were looking for a research assistant to work with us on a university-funded research project. Rushabh applied for the position. None of us knew him because he came from another department but we were impressed not only with his technical knowledge and skills, which surpassed the other applicants', but also with his communication abilities, pleasant personality and self-confidence. He got the job. My 3-month collaboration with Rushabh during the summer of 2016 confirmed my initial impressions. Rushabh worked with us on data collection and coding for a meta-analytic study of supply chain integration. He parsed through hundreds of papers, identified the relevant papers and collected from them the effect sizes to include in our dataset. As a computer science major, Rushabh did not initially know much about supply chain management. But he learned very quickly. It was a pleasure to work with him. He understood what needed to be done, worked very hard, and completed his part of the project in the limited time that we had. It is an honor to recommend him.</blockquote>
 	 										  </div>
@@ -491,7 +494,7 @@ Dr. Yanhui Guo</blockquote>
 	 										 		<center>
 	 										 		<a href="https://www.linkedin.com/in/elham-sahebkar-68b886114/">
 	 										 		<div class="circular--portrait">
-	 										 		<img src={require(`../../assests/images/elham_thumbnail.png`)} />
+	 										 		<img alt="" src={require(`../../assests/images/elham_thumbnail.png`)} />
 	 										 		</div>
 	 										 		</a>
 
@@ -499,7 +502,7 @@ Dr. Yanhui Guo</blockquote>
 	 										 		<h4 style={{color:'white',marginTop:'-30px', marginBottom:'0px'}}>Elham Sahebkar</h4>
 	 										 		<i><h5 style={{color:'white',marginTop:'-1px',marginBottom:'18px'}}>Assistant Professor </h5></i>
 	 										 		<i><h5 style={{color:'white',marginTop:'-20px'}}>University of Illinois</h5></i>
-													<text style={{color:'#1789ef',fontFamily:'aerial',fontSize:'120px',position:'relative',right:'-10px',bottom:'-35px' }}>{experience.quote_symbol} </text>
+													<text style={{color:themeMode === "lightTheme" ? '#1789ef': '#97b260',fontFamily:'aerial',fontSize:'120px',position:'relative',right:'-10px',bottom:'-35px' }}>{experience.quote_symbol} </text>
 
 													<blockquote className='textcs'>I had Rushabh in my CSC570 Big Data Analytics class in FALL 2016 and he was, without doubt, at the top 1% of class. Rushabh is very professional, smart, reliable, dedicated, and a creative thinker. The solutions he submitted for many of the class projects exceeded my expectations and demonstrated his ability to learn and think critically. He even did all the optional and challenge projects in the course. As final project for Big Data Analytics class, Rushabh built an analyzed the ACM citation graph with Spark and Hadoop. I was very impressed with Rushabh’s performance in class and I am currently collaborating with him on a research project I am conducting with SIU School of Medicine on analyzing pediatric big data to discover pediatric population that are more at risk for certain diseases in Southern Illinois Region. Rushabh will also assisted me on a workshop on Twitter Graph Analysis we presented in March 2017 at Cyber Defense and Disaster Recovery Conference at UIS. Rushabh is also modest about his abilities and is a very pleasant person to work and interact with. Rushabh is very reliable and persistent. I have no doubt that Rushabh will be a great addition to any company who is willing to give him a chance as an international student.</blockquote>
 	 										  </div>
@@ -525,4 +528,10 @@ Dr. Yanhui Guo</blockquote>
 	}
 }
 
-export default Experience;
+
+export default () => {
+	const {themeMode } = useContext(AppContext);
+	return (
+		<Experience themeMode={themeMode} />
+	)
+  }

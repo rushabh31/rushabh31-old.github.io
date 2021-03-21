@@ -3,10 +3,10 @@ import Header from '../../components/header/Header';
 import Footer from '../../components/footer/Footer';
 import SocialMedia from '../../components/socialMedia/SocialMedia';
 import Button from '../../components/button/Button';
-import {greeting} from '../../portfolio';
 import {Fade} from 'react-reveal';
 import './ContactComponent.css';
-
+import { AppContext } from "../../theme/AppProvider";
+import { useContext } from "react";
 
 const blogSection = {
 
@@ -38,6 +38,8 @@ const ContactData = {
 
 class Contact extends Component {
     render() {
+		const themeMode = this.props.themeMode;
+
         return (
 					<div className="contact-main">
 						<Header />
@@ -87,8 +89,7 @@ class Contact extends Component {
 									</div>
 									<div className="blog-heading-img-div">
 										<img
-											src={require(`../../assests/images/${blogSection["avatar_image_path"]}`)}
-											alt=""
+										src= {themeMode === "lightTheme" ? require("../../assests/images/blogs_image.svg"): require("../../assests/images/blogs_image-dark.svg")}											alt=""
 										/>
 									</div>
 								</div>
@@ -97,8 +98,8 @@ class Contact extends Component {
 								<div className="address-heading-div">
 									<div className="contact-heading-img-div">
 										<img
-											src={require(`../../assests/images/${addressSection["avatar_image_path"]}`)}
-											alt=""
+										src= {themeMode === "lightTheme" ? require("../../assests/images/address_image.svg"): require("../../assests/images/address_image-dark.svg")}											alt=""
+										alt=""
 										/>
 									</div>
 									<div className="address-heading-text-div">
@@ -131,4 +132,9 @@ class Contact extends Component {
     }
 }
 
-export default Contact;
+export default () => {
+	const {themeMode } = useContext(AppContext);
+	return (
+		<Contact themeMode={themeMode} />
+	)
+  }

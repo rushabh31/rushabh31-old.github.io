@@ -34,11 +34,9 @@ const skills = {
     {
       title: "Machine Learning & AI",
       imagePath: "machine-learning.svg",
+      imagePathDark: "machine-learning-dark.svg",
       skills: [
-        "Applying natural language processing methods to clinical text to extract structured information",
-        "Using the latest deep learning techniques to classify imaging studies",
-        "Applying statistical models (with a focus on Bayesian methods) to assist researchers in analyzing missing,erroneous or incomplete patient data",
-        "Writing tools and visualizations to surface data insights from the above methods to researchers"
+        "Applying natural language processing methods to clinical text to extract structured information. Using the latest deep learning techniques to classify imaging studies. Applying statistical models (with a focus on Bayesian methods) to assist researchers in analyzing missing,erroneous or incomplete patient data. Writing tools and visualizations to surface data insights from the above methods to researchers"
       ],
       softwareSkills: [
         {
@@ -82,10 +80,9 @@ const skills = {
     {
       title: "Data Visualization",
       imagePath: "data-visualization.svg",
+      imagePathDark: "data-visualization-dark.svg",
       skills: [
-        " Report and visualize results of statistical analyses, in the form of graphs, charts, and tables",
-        " Conduct regular data mining and exploratory analyses across analytics spectrum to ensure data quality & integrity and to produce data insights",
-        " Develop dashboards to illustrate data insight and describe predictive modeling output."
+        "Report and visualize results of statistical analyses, in the form of graphs, charts, and tables. To produce data insights, conduct regular data mining and exploratory analyses across analytics spectrum to ensure data quality & integrity. Develop dashboards to illustrate data insight and describe predictive modeling output."
       ],
       softwareSkills: [
         {
@@ -129,10 +126,9 @@ const skills = {
     {
       title: "Cloud Infra-Architecture",
       imagePath: "cloud_infrastructure.svg",
+      imagePathDark: "cloud_infrastructure-dark.svg",
       skills: [
-        " Experience working on multiple cloud platforms",
-        " Create and maintain framework for deploying machine on Cloud",
-        " Engineer computational solutions and develop algorithms and deploying them through REST API in production"
+        " Experience working on multiple cloud platforms. Create and maintain framework for deploying machine on Cloud. Engineer computational solutions and develop algorithms and deploying them through REST API in production"
       ],
       softwareSkills: [
         {
@@ -169,10 +165,9 @@ const skills = {
     {
       title: "Package Development",
       imagePath: "ui_ux_design.svg",
+      imagePathDark: "ui_ux_design-dark.svg",
       skills: [
-        " Designed multiple R packages for the community to make vis easy.",
-        " Developed a R Package to facilitate contact tracing on visit-based data with a specific focus on providers of community-based healthcare.",
-        " Packaging and deploying them for the public usage"
+        " Designed multiple R packages for the community to make vis easy. Developed a R Package to facilitate contact tracing on visit-based data with a specific focus on providers of community-based healthcare. Packaging and deploying them for the public usage"
       ],
       softwareSkills: [
         {
@@ -356,20 +351,6 @@ const openSource = {
 
 
 
-
-const blogSection = {
-  /* Blogs Section */
-
-  title: "Blogs",
-  subtitle:
-    "With love for individual fundamental empowerment, I like to write powerful lessons that create impact on each of the reader individually to change the core of their character.",
-  link: "https://ashutoshhathidara.wordpress.com",
-  avatar_image_path: "blogs_image.svg"
-
-
-};
-
-
 const contactInfo = {
   title: "Contact Me ☎️",
   subtitle: "Discuss a project or just want to say hi my inbox is open for all",
@@ -386,6 +367,5 @@ export {
 	degrees,
 	certifications,
 	openSource,
-	blogSection,
 	contactInfo
 };

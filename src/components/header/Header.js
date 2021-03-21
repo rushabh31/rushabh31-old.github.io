@@ -1,10 +1,11 @@
-import React from "react";
 import "./Header.css";
 import { Fade } from "react-reveal";
 import { NavLink, Link } from "react-router-dom";
-import Particles from 'react-particles-js';
-
+import { AppContext } from "../../theme/AppProvider";
+import React, { useContext } from "react";
 function Header() {
+	const {themeMode } = useContext(AppContext);
+
   return (
 
 		<Fade top duration={1000} distance="20px">
@@ -29,7 +30,7 @@ function Header() {
 							<NavLink
 								to="/home"
 								tag={Link}
-								activeStyle={{ fontWeight: "bold" , color:'#a92750'}}
+								activeStyle={{ fontWeight: "bold" , color: themeMode === "lightTheme" ? "#277aa9":"#a8c66b"}}
 							>
 								Home
 								
@@ -39,7 +40,7 @@ function Header() {
 							<NavLink
 								to="/education"
 								tag={Link}
-								activeStyle={{ fontWeight: "bold", color:'#a92750' }}
+								activeStyle={{ fontWeight: "bold", color: themeMode === "lightTheme" ? "#277aa9":"#a8c66b" }}
 							>
 								Education
 							</NavLink>
@@ -48,20 +49,12 @@ function Header() {
 							<NavLink
 								to="/experience"
 								tag={Link}
-								activeStyle={{ fontWeight: "bold" , color:'#a92750'}}
+								activeStyle={{ fontWeight: "bold" , color: themeMode === "lightTheme" ? "#277aa9":"#a8c66b"}}
 							>
 								Experience
 							</NavLink>
 						</li>
-						{/* <li>
-							<NavLink
-								to="/projects"
-								tag={Link}
-								activeStyle={{ fontWeight: "bold" , color:'#a92750'}}
-							>
-								Projects
-							</NavLink>
-						</li> */}
+					
             <li>
             <a href="https://rushabh.info/react-blog-github/#/">Blogs</a>
 
@@ -72,7 +65,7 @@ function Header() {
                 className = "test_active"
 								tag={Link}
                 exact
-                activeStyle={{ fontWeight: "bold" , color:'#a92750'}}
+                activeStyle={{ fontWeight: "bold" , color:'#a8c66b'}}
 							>
 								Contact Me
 							</NavLink>

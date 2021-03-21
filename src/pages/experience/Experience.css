@@ -1,3 +1,15 @@
+@font-face{
+  font-family: "cassette";
+  font-size: 40px;
+  src: url("../../components/header/Chasing.ttf") format("truetype");
+}
+
+@font-face{
+  font-family: "BeautyDemo";
+  font-size: 40px;
+  src: url("../../components/header/BeautyDemo.ttf") format("truetype");
+}
+
 .experience-main {
   width: 100vw;
 }
@@ -32,7 +44,7 @@
 .experience-heading-text {
   font-size: 56px;
   font-weight: 400;
-  font-family: "Google Sans Medium";
+  font-family: "cassette";
   line-height: 1.1;
   text-align: center;
   margin-top: 80px;
@@ -40,18 +52,17 @@
 
 .experience-heading-sub-text {
   font-size: 30px;
-  font-family: "Google Sans Regular";
   text-align: center;
   margin-bottom: 10px;
+  font-family: "cassette";
 }
 
-.experience-header-detail-text {
-    font-size: 20px;
+.heading-sub-text {
   line-height: 30px;
-  margin-top:0px;
+  margin-top: 0px;
   margin-left: 20px;
   margin-right: 20px;
-  font-family: "Google Sans Medium";
+  color: #868e96;
 }
 
 @media (max-width: 1380px) {
@@ -78,12 +89,9 @@
     flex-direction: column;
   }
 
-  .experience-header-detail-text {
-    font-size: 16px;
-    margin-right: 0px;
-    line-height: normal;
-    text-align: center;
-  }
+
+
+  
 
 }
 
@@ -112,7 +120,7 @@
     margin: 0;
     position: relative;
     text-align: center;
-    background: #00000;
+    background: #000000;
     color: coral;
 }
 
@@ -126,7 +134,6 @@
   }
 
   .textcs{
-
     position: relative;
     color: #f5f5f5;
     text-align:left;
@@ -136,11 +143,45 @@
     height: 300px;
     width:300px;
     font-family: Consolas,'Courier New',Monaco,Courier,monospace;
-    /*font-family:aerial;*/
     line-height: 18px;
     overflow: scroll;
-    /*quotes: "\201C""\201D""\2018""\2019";*/
   }
+
+  #heading{
+    font-family: cassette;
+  }
+  /* blockquote {
+    font-family: Georgia, serif;
+    font-size: 18px;
+    font-style: italic;
+    margin: 0.25em 0;
+    padding: 0.35em 40px;
+    line-height: 1.45;
+    position: relative;
+    color:cornsilk;
+    }
+    
+    blockquote:before {
+    display: block;
+    content: "\201C";
+    font-size: 60px;
+    position: absolute;
+    left: 20px;
+    top: -20px;
+    color: cornsilk;
+    }
+    
+    blockquote cite {
+    color: cornsilk;
+    font-size: 14px;
+    display: block;
+    margin-top: 5px;
+    }
+     
+    blockquote cite:before {
+    content: "\2014 \2009";
+    } */
+
 
 }
 
@@ -167,24 +208,38 @@
 }
 
 
+#exp_block {
+  font-family: Georgia, serif;
+  font-size: 18px;
+  font-style: italic;
+  margin: 0.25em 0;
+  padding: 0.35em 40px;
+  line-height: 1.45;
+  position: relative;
+  }
+  
+  #exp_block:before {
+  display: block;
+  content: "\201C";
+  font-size: 60px;
+  position: absolute;
+  left: 50px;
+  top: -20px;
+  }
+
+  
+  #exp_block cite {
+  font-size: 14px;
+  display: block;
+  margin-top: 5px;
+  }
+   
+  #exp_block cite:before {
+  content: "\2014 \2009";
+  }
 
 
 
 
 
-/*.textcs:before {
-			color: #ccc;
-			content: open-quote;
-			position: absolute;
-			left: 10px;
-			top: 30px;
-			font-size: 4em;
-			line-height: 0.1em;
-			margin-right: 0.25em;
-			vertical-align: -0.4em;
-		}
 
-		.textcs p {
-			display: inline;
-		}
-*/

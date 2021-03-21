@@ -46,14 +46,20 @@
 
 
 @font-face{
+  font-family: "cassette";
+  font-size: 40px;
+  src: url("../../components/header/Chasing.ttf") format("truetype");
+}
+
+@font-face{
   font-family: "BeautyDemo";
   font-size: 40px;
   src: url("../../components/header/BeautyDemo.ttf") format("truetype");
 }
 
 .greetingtit{
-  font-family: "BeautyDemo";
-  font-size: 40px;
+  font-family: "cassette";
+  font-size: 30px;
   line-height: 40px;
   margin-right: 40px;
 }
@@ -62,7 +68,7 @@
   font-size: 30px;
   line-height: 40px;
   margin-right: 40px;
-  font-family: "Google Sans Medium";
+  font-family:"cassette";
 }
 
 .greeting-image-div > img {
@@ -76,7 +82,8 @@
     font-size: 50px;
   }
   .greeting-text-p {
-    font-size: 20px;
+    font-size: 40px;
+    font-family:"cassette";
   }
 }
 @media (max-width: 768px) {
@@ -92,20 +99,30 @@
     font-size: 25px;
     text-align: center;
   }
+
+
   .greeting-text-p {
-    font-size: 16px;
+    font-size: 60px;
     margin-right: 0px;
-    line-height: normal;
     text-align: center;
+    font-family:"cassette";
+    
   }
   .greeting-main {
     display: block;
   }
+  .greetingtit {
+    font-family: "cassette";
+    font-size: 30px;
+    line-height: 20px;
+    margin-right: 20px;
+    line-height: normal;
+    text-align: center;}
 }
 
 
 
-#feature1 {
+/* #feature1 {
   background-image: url("../../assests/images/ai.gif");
   background-position: 50% 94px;
   width: 120%;
@@ -113,7 +130,6 @@
   display: block;
   position: relative;
   overflow: visible;
-  /*background-attachment: scroll;*/
 
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -130,14 +146,14 @@
   backface-visibility: hidden;
   padding: 100px 0;
   height:500px;
-}
+} */
 
 
-@media screen and (max-width: 600px) {
+/* @media screen and (max-width: 600px) {
   #feature1 {
     background-image: url("../../assests/images/ai.gif");
     width: auto;
     height: auto;
     background-attachment: scroll;
   }
-}
+} */
