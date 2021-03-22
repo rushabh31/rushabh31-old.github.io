@@ -41,8 +41,6 @@
     visibility: hidden;
     clear: both;
     float: left;
-    margin: 10px auto 5px 20px;
-    width: 28%;
     display: none;
   }
 }
@@ -54,7 +52,7 @@
   line-height: 1.1;
   font-family: "cassette";
   text-align: center;
-  margin-left: 70px;
+  margin-left: 50px;
 }
 
 .skills-text {
@@ -123,6 +121,12 @@
     margin-right: auto;
     
   }
+  #feature {
+    visibility: hidden;
+    clear: both;
+    float: left;
+    display: none;
+  }
 }
 @media (max-width: 768px) {
   .skills-heading {
@@ -131,7 +135,7 @@
   }
   .skills-header {
     font-size: 30px;
-    margin-left: 30px;
+    margin-left: 15px;
 
   }
   .greeting-text-p {
@@ -170,6 +174,12 @@
     margin-top: 0px;
   }
 
+  #feature {
+    visibility: hidden;
+    clear: both;
+    float: left;
+    display: none;
+  }
 
   
 }
