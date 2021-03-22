@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.510a7e12.chunk.css",
-    "main.js": "/static/js/main.dc80c571.chunk.js",
-    "main.js.map": "/static/js/main.dc80c571.chunk.js.map",
+    "main.css": "/static/css/main.ac85ff22.chunk.css",
+    "main.js": "/static/js/main.9175c7cf.chunk.js",
+    "main.js.map": "/static/js/main.9175c7cf.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.a8287a82.js",
     "runtime-main.js.map": "/static/js/runtime-main.a8287a82.js.map",
     "static/css/2.fb346933.chunk.css": "/static/css/2.fb346933.chunk.css",
     "static/js/2.c7666664.chunk.js": "/static/js/2.c7666664.chunk.js",
     "static/js/2.c7666664.chunk.js.map": "/static/js/2.c7666664.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.280ee8b35266e1d19291a3e630201d9f.js": "/precache-manifest.280ee8b35266e1d19291a3e630201d9f.js",
+    "precache-manifest.b991b41cff9b3e399328bb510a71b7a6.js": "/precache-manifest.b991b41cff9b3e399328bb510a71b7a6.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.fb346933.chunk.css.map": "/static/css/2.fb346933.chunk.css.map",
-    "static/css/main.510a7e12.chunk.css.map": "/static/css/main.510a7e12.chunk.css.map",
+    "static/css/main.ac85ff22.chunk.css.map": "/static/css/main.ac85ff22.chunk.css.map",
     "static/js/2.c7666664.chunk.js.LICENSE.txt": "/static/js/2.c7666664.chunk.js.LICENSE.txt",
     "static/media/index.css": "/static/media/Montserrat-Regular.ee653992.ttf",
     "static/media/ContactComponent.css": "/static/media/Chasing.3b14f0fa.ttf",
@@ -47,7 +47,7 @@
     "static/media/ijaer.png": "/static/media/ijaer.5b062730.png",
     "static/media/ijsetr.png": "/static/media/ijsetr.ff08941b.png",
     "static/media/machine-learning-dark.svg": "/static/media/machine-learning-dark.5eaa8773.svg",
-    "static/media/machine-learning.svg": "/static/media/machine-learning.d59e8df6.svg",
+    "static/media/machine-learning.svg": "/static/media/machine-learning.76fa979c.svg",
     "static/media/machine-learning1.svg": "/static/media/machine-learning1.df3155d4.svg",
     "static/media/natalie_thumbnail.png": "/static/media/natalie_thumbnail.970a212a.png",
     "static/media/oude_thumbnail.png": "/static/media/oude_thumbnail.178811b5.png",
@@ -79,7 +79,7 @@
     "static/js/runtime-main.a8287a82.js",
     "static/css/2.fb346933.chunk.css",
     "static/js/2.c7666664.chunk.js",
-    "static/css/main.510a7e12.chunk.css",
-    "static/js/main.dc80c571.chunk.js"
+    "static/css/main.ac85ff22.chunk.css",
+    "static/js/main.9175c7cf.chunk.js"
   ]
 }
