@@ -5,14 +5,15 @@
 
 ## A clean, beautiful and responsive portfolio template for Developers!
 
+![image](https://user-images.githubusercontent.com/50964981/113893711-47798680-9795-11eb-971a-60bacf7304d0.png)
 
-<p align="center">
+<!--<p align="center">
   <kbd>
   	<a href="https://rushabh.info" target="_blank">
 		<img src="images/front.PNG"></img>
 	</a>
   </kbd>
-</p> 
+</p> -->
 
 
 If you want to **contribute** and make this much better for other developer have a look at [Issues](https://github.com/rushabh31/rushabh31.github.io/issues).
